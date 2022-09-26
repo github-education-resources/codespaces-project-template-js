@@ -1,0 +1,116 @@
+/**
+* CSS file to hold styles that apply across the application
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+div#main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  position: relative;
+}
+
+section.dark {
+  min-height: 100vh;
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+section.light {
+  color: black;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 8rem 0;
+}
+
+section img.background {
+  width: 100vmax;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  pointer-events: none;
+  object-fit: cover;
+}
+
+h1 {
+  font-weight: 300;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 7rem;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+p.large {
+  font-size: 24px;
+}
+
+p.small {
+  font-size: 15px;
+}
+
+.container {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 330px 300px;
+  grid-gap: 20px;
+}
+
+.container .box {
+  border-radius: 10px;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(204, 204, 204);
+  text-align: center;
+}
+
+hr {
+  margin: 2.5rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li::marker {
+  color: #4e567e;
+}
+
+img.socialIcon {
+  width: 30px;
+  height: 30px;
+}

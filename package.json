@@ -1,0 +1,35 @@
+{
+  "name": "educator-js-codespace-template",
+  "version": "1.0.0",
+  "description": "Educator JS Codespace Template",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+  },
+  "author": "Sara Gibbons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+  },
+  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "html-webpack-plugin": "^5.5.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
+  }
+}
