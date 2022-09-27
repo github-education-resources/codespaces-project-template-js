@@ -1,17 +1,16 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526680454)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript Codespace Template (React)
+# JavaScript React Portfolio Site for use with GitHub Codespaces
 
-_Extend and use for your Web Development lessons in minutes._
+_Create and deploy your own portfolio website in minutes._
 
-With this JS Codespace template you can immediately create a lesson that provides a consistent starting point for all your students. Allow you as the educator to focus on the web development content you are teaching, and let us handle the environment setup for you.
+With this template respository you can quickly create, customize and deploy your own website using the <a href="https://reactjs.org/" target="_blank">React</a> framework. We have the development environment ready so that you can focus on the project, and how you want to utilize it for yourself.
 
-* **Who is this for?** Educators and teachers of all levels, and those looking for a great boilerplate React template web app to build on.
-* **How much experience do students need?** Zero. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
-* **Can I use for other JS Frameworks?** Absolutely. We used React here as an example and provide instructions below how you can use this template and update to your framework requirements.
-* **Prerequisites:** None. This template will provide you a working and deployable web app you can immediately extend for your needs.
+* **Who is this for?** Anyone looking to create a portfolio site, learn web development, learn React, or just looking to test out Codepsaces.
+* **How much experience do students need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend. 
+* **Prerequisites:** None. This template will provide you a working and deployable web app you can immediately extend ereate your own site with no web development background.
 
-## What is GitHub Codespace and how can I use it in my teaching?
+## What is GitHub Codespace and how will it help me?
 
 A Codespace is a development environment that's hosted in the cloud that you can configure.
 
@@ -33,9 +32,6 @@ You can configure things like:
 
 > Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
-### For the Educator
-
-For you as a teacher that means that you can create an environment, in the cloud, for your class that all students can use with 0 or next to 0 configuration regardless of what operating system they are using.
 
 ## Codespaces JS template
 
