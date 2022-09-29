@@ -1,14 +1,28 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript React Portfolio Site for use with GitHub Codespaces
+# JavaScript React Portfolio Site with GitHub Codespaces
 
 _Create and deploy your own portfolio website in minutes._
 
-With this template respository you can quickly create, customize and deploy your own website using the <a href="https://reactjs.org/" target="_blank">React</a> framework. We have the development environment ready so that you can focus on the project, and how you want to utilize it for yourself.
+With this template repository you can quickly create, customize and deploy your own website using the <a href="https://reactjs.org/" target="_blank">React</a> framework. We have the development environment ready so that you can focus on the project, and how you want to utilize it for yourself.
 
 * **Who is this for?** Anyone looking to create a portfolio site, learn web development, learn React, or just looking to test out Codepsaces.
 * **How much experience do students need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend. 
-* **Prerequisites:** None. This template will provide you a working and deployable web app you can immediately extend ereate your own site with no web development background.
+* **Tools needed:** _None_. No need to install anything! All you need is a web browser.
+* **Prerequisites:** _None_. This template will provide you a working and deployable web app you can immediately extend to create your own site with no web development background.
+
+## About this portfolio template
+
+Our goal is to give a way to quickly create, customize and deploy your own portfolio website using GitHub Codespaces.
+
+Using this template you will:
+
+* Learn how to use Codespaces (_all you need is a web browser_)
+* Learn a bit of JavaScript, React, HTML and CSS
+* Create your own __free__ personalized and deployed live website
+* Have something you can build on to highlight your work as build new projects
+
+This project is built to be a bit of "choose your own adventure", meaning you can customize it, and give it as much or as little time as you have. Below we will guide you through how to customize and challenges to extend, you choose your path.
 
 ## What is GitHub Codespace and how will it help me?
 
@@ -32,14 +46,14 @@ You can configure things like:
 
 > Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
+## Get familiar with project files and folders
 
-## Codespaces JS template
-
-This repo is a GitHub template for a JavaScript frontend web application using the React framework. The goal here is to give you a template to you can immediately utilize for React, or show you hwo you can adapt it for your particular JS needs.
+This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
 
 The repo contains the following:
 
-* `/src`, the sub directory `/src` contains the HTML, JS and CSS for the React web application.
+* `/.devcontainer`, containers the Codespaces configuration files
+* `/src`, where you will find all the HTML, JS and CSS to that is used to build your portfolio site.
 * `.eslintrc`, settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
 * `.prettierrc`, settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
 * `CODE_OF_CONDUCT`, Microsoft's Code of Conduct for open source repositories. Learn more by reading the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT) file in this repo.
@@ -49,13 +63,15 @@ The repo contains the following:
 * `SECURITY`, Microsoft's security policies for open source repositories. Read more in [SECURITY](./SECURITY)
 * `SUPPORT`, how best to get assistance with this repo. Read more in [SUPPORT](./SUPPORT)
 
-### About the base React application (`/src` )
+### Getting started
 
-As an example of how you can utilize Codespaces we have set this template to be a base <a href="https://reactjs.org/" target="_blank">React</a> application that utilizes <a href="https://parceljs.org/" target="_blank">Parcel</a> to build.
+This project is filled with sample data so that you can immediately open in Codespaces, see it running, and deploy at any point.
 
-In the source for the React application you will see the bare minimum file structure for a working application. Included in that is a sample component (Header) to demonstrate how to incorporate components into your application. 
+Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
+* Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfoli site
+* <a href="https://parceljs.org/" target="_blank">Parcel</a> in place to build your site when deploying
+* Code linting and formattting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency
 
-We utilize <a href="https://parceljs.org/" target="_blank">Parcel</a> for it's limited configuration required and ease for you to extend or replace if needed.
 
 <details id=1>
 <summary><h3>Run this template</h3></summary>
@@ -86,9 +102,29 @@ When all is selected, press the "Create repository from template" button the bot
 
 ## Next Steps
 
-This template is intended to be fully customizable for your particular Web Development teaching needs. Here are a few challenge scenarios we will cover for when you are ready.
+### Customize your site
 
 <details id=3>
+<summary><h3>1. Add your "about me" and social accounts</h3></summary>
+</details>
+
+<details id=4>
+<summary><h3>2. Update photos</h3></summary>
+</details>
+
+<details id=5>
+<summary><h3>3. Add items you've worked on</h3></summary>
+</details>
+
+### Deploy your web application
+
+#### Azure Static Web Apps
+
+#### GitHub Pages
+
+### Challenges
+
+<details id=6>
 <summary><h3>1. Add an extension</h3></summary>
 
 Your environment comes with preinstalled extensions. You can change which extensions your codespaces environment starts with, here's how:
@@ -119,32 +155,23 @@ To find the unique identifier of an extension:
 
 </details>
 
-<details id=4>
-<summary><h3>2. Change to a different frontend framework</h3></summary>
-
-At the core of this template app is <a href="https://nodejs.org/" target="_blank">Node.js</a>. On top of a Node.js base app you can utilize multiple JavaScript frameworks to creating an <a href="http://expressjs.com/" target="_blank">Express</a> backend application.  
-
-To get started customizing for your needs:
-
-1. Open the repo you created from this template in Codespaces. 
-1. Remove the packages listed in `dependencies` and `devDependencies` from `package.json` that you will not be using.
-1. In the terminal  within your Codespace, run `npm install` to clear the removed packages.
-1. You can now install the packages for the project needed for your lesson through the recommended paths provided through the framework documentation.
-
-Once you have your updates packages you will then need to:
-
-* Update/Remove source files referencing React.
-* Update ESLint configuration to match nw framework being used.
-* Update any Prettier configuration, if required.
-
-In some cases, the initialization of a new framework may overwrite existing `/src` files, not a problem. The Codespace is set to run `npm install` and `npm run start` on start. As long as those are still valid for your framework Codespace will continue to work as expected.
-
-If running `npm install` and `npm run start` in the root of your Codespace are no longer valid, simply open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
+<details id=7>
+<summary><h3>2. Update to smooth scroll to a section</h3></summary>
 
 </details>
 
-<details id=5>
-<summary><h3>3. Update the version of Node.js</h3></summary>
+<details id=8>
+<summary><h3>3. Animate desk photo</h3></summary>
+    Bonus: Animate scroll down arrow
+</details>
+
+<details id=9>
+<summary><h3>4. Add a new section</h3></summary>
+
+</details>
+
+<details id=10>
+<summary><h3>5. Update the version of Node.js</h3></summary>
 
 Let's say you want to change what version of Node.js this project is utilizing. This is something you can control.
 
