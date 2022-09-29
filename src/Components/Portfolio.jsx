@@ -9,7 +9,7 @@
  */
 
 import React from "react";
-import deskImage from "../images/design-desk.jpeg";
+import image from "../images/design-desk.jpeg";
 
 /**
  * Project list
@@ -50,7 +50,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img src={deskImage} style={{ height: "90%", width: "100%", objectFit: "cover" }} />
+          <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover" }} />
         </div>
         <div className="container">
           {projectList.map((project) => (

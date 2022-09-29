@@ -7,7 +7,7 @@ _Create and deploy your own portfolio website in minutes._
 With this template repository you can quickly create, customize and deploy your own website using the <a href="https://reactjs.org/" target="_blank">React</a> framework. We have the development environment ready so that you can focus on the project, and how you want to utilize it for yourself.
 
 * **Who is this for?** Anyone looking to create a portfolio site, learn web development, learn React, or just looking to test out Codepsaces.
-* **How much experience do students need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend. 
+* **How much experience do students need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend.
 * **Tools needed:** _None_. No need to install anything! All you need is a web browser.
 * **Prerequisites:** _None_. This template will provide you a working and deployable web app you can immediately extend to create your own site with no web development background.
 
@@ -19,7 +19,7 @@ Using this template you will:
 
 * Learn how to use Codespaces (_all you need is a web browser_)
 * Learn a bit of JavaScript, React, HTML and CSS
-* Create your own __free__ personalized and deployed live website
+* Create your own **free** personalized and deployed live website
 * Have something you can build on to highlight your work as build new projects
 
 This project is built to be a bit of "choose your own adventure", meaning you can customize it, and give it as much or as little time as you have. Below we will guide you through how to customize and challenges to extend, you choose your path.
@@ -58,20 +58,22 @@ The repo contains the following:
 * `.prettierrc`, settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
 * `CODE_OF_CONDUCT`, Microsoft's Code of Conduct for open source repositories. Learn more by reading the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT) file in this repo.
 * `LICENSE`, this project is under MIT license. Learn more by reading the [LICENSE](./LICENSE) file in this repo.
-* `package.json` and `package-lock.json`, these 2 files define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each. 
+* `package.json` and `package-lock.json`, these 2 files define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
 * `README.md`. this file describes this repository and what's in it.
 * `SECURITY`, Microsoft's security policies for open source repositories. Read more in [SECURITY](./SECURITY)
 * `SUPPORT`, how best to get assistance with this repo. Read more in [SUPPORT](./SUPPORT)
 
-### Getting started
+## Getting started
 
 This project is filled with sample data so that you can immediately open in Codespaces, see it running, and deploy at any point.
 
 Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
+
 * Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfoli site
 * <a href="https://parceljs.org/" target="_blank">Parcel</a> in place to build your site when deploying
-* Code linting and formattting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency
+* Code linting and formattting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency.
 
+All elements have been commented with notes, tips and directions. As you are working within the code you can use those are your guide, as well as this README.
 
 <details id=1>
 <summary><h3>Run this template</h3></summary>
@@ -100,29 +102,49 @@ When all is selected, press the "Create repository from template" button the bot
 
 </details>
 
-## Next Steps
+## Customize your site in 3 steps
 
-### Customize your site
+This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
 
-<details id=3>
-<summary><h3>1. Add your "about me" and social accounts</h3></summary>
-</details>
+For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespace. 
 
-<details id=4>
-<summary><h3>2. Update photos</h3></summary>
-</details>
+> See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
-<details id=5>
-<summary><h3>3. Add items you've worked on</h3></summary>
-</details>
+#### 1. Add your "about me" and social accounts
 
-### Deploy your web application
+Within `App.js` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
 
-#### Azure Static Web Apps
+Update to the name and title you'd like displayed at the top of your site.
 
-#### GitHub Pages
+_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list, or set to an empty string ("") it will not display the icon and link.
 
-### Challenges
+#### 2. Update images
+
+This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+
+A couple possible sites to find photos are <a href="https://pixabay.com/" target="_blank">Pixabay</a> and <a href="https://unsplash.com" target="_blank">Unsplash</a>. Photos, illustrations, vectors, your choice! When you found your images, save each one to `/src/images` with a short, meaningful file name.
+
+Go to the following components to update the `import image...` line to reference the new image you downloaded for that section:
+
+* `Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
+* `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
+* `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
+
+#### 3. Add items you've worked on
+
+The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+
+Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description and URL.
+
+The sample design has 4, but the number you include is up to you. 
+
+## Deploy your web application
+
+### Azure Static Web Apps
+
+### GitHub Pages
+
+## Challenges
 
 <details id=6>
 <summary><h3>1. Add an extension</h3></summary>
@@ -175,7 +197,7 @@ To find the unique identifier of an extension:
 
 Let's say you want to change what version of Node.js this project is utilizing. This is something you can control.
 
-Open *.devcontainer/devcontainer.json* and replace the following section:
+Open _.devcontainer/devcontainer.json_ and replace the following section:
 
 ```json
 "VARIANT": "16-bullseye"
