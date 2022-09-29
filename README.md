@@ -110,7 +110,7 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 > See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
-#### 1. Add your "about me" and social accounts
+### 1. Add your "about me" and social accounts
 
 Within `App.js` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
 
@@ -118,7 +118,7 @@ Update to the name and title you'd like displayed at the top of your site.
 
 _Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list, or set to an empty string ("") it will not display the icon and link.
 
-#### 2. Update images
+### 2. Update images
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
@@ -130,7 +130,7 @@ Go to the following components to update the `import image...` line to reference
 * `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
 * `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
 
-#### 3. Add items you've worked on
+### 3. Add items you've worked on
 
 The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
@@ -140,9 +140,37 @@ The sample design has 4, but the number you include is up to you.
 
 ## Deploy your web application
 
+Project includes the setup needed for you to deploy **free** to both <a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
 ### Azure Static Web Apps
 
+<a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> is Microsoft's hosting solution through Azure for static sites (or sites that are rendered in the user's browser, not on a server). Will provide you additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+
+With your project open in Codespaces:
+
+1. Go to the Azure icon in the left sidebar. Log in if you are not already. If you are new to Azure, follow the provide prompts to create your account.
+1. From Azure menu click “+” sign and then “Create Static Web App”.
+1. If you are not logged into GitHub you will be prompted to log in, and if you have any pending file changes you will then be prompted to commit those changes. 
+1. When asked to enter a name for you site, you can enter any name of your choice. 
+1. For region selection, pick the one closest to you.
+1. At the project structure prompt, select "React".
+1. You will then be asked for location of application, as well as build location. For this project:
+    1. Application code - `/`
+    1. Build location - `dist`
+1. When complete you will see notification at the bottom of your screen, and a new GitHUb Action workflow will be added to your poroject. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running. 
+
 ### GitHub Pages
+
+<a href="https://pages.github.com/" target="_blank">GitHub Pages</a> allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps. 
+
+With your project open in Codespaces:
+
+1. Go to `package.json` and find the "homepage" value, and update it to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it.
+1. Commit and push that change to `package.json` to your GitHub remote repo.
+1. Open a new terminal from the menu or by pressing `crtl` + `shift` + `\``
+1. Within the terminal window run `npm run deploy`. This will first run the predeploy script to build the project, followed by the deploy script that will push those bundled files to a new branch on your repo (gh-pages) that will be used for you GitHub Pages site.
+1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the url (that should match the “homepage” value you set in package.json)
+
 
 ## Challenges
 
