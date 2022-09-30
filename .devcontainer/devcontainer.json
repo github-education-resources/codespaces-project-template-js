@@ -20,7 +20,13 @@
         "esbenp.prettier-vscode",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps"
-      ]
+      ],
+      "settings": {
+        "emmet.includeLanguages": {
+          "javascript": "javascriptreact"
+        },
+        "emmet.triggerExpansionOnTab": true
+      }
     }
   },
 
