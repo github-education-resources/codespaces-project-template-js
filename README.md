@@ -67,48 +67,43 @@ This repo is a GitHub template to build a JavaScript personal portfolio frontend
 The repo contains the following:
 
 * `/.devcontainer`
-  - .devcontainer/Dockerfile: Configuration file used by Codespaces to determine operating system and other details.
-  - .devcontainer/devcontainer.json, A configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
+  - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
+  - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
 * `/src`: HTML, JS and CSS files used to build your portfolio site.
 * `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
 * `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
-* `package.json` and `package-lock.json`, these 2 files define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
+* `package.json` and `package-lock.json`: Defines the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
 
-## Getting started
+## 🚀 Getting started
 
 This portfolio site project is filled with sample data so that you can immediately open in Codespaces, see it running, and deploy at any point.
 
 Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
 
-* Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfoli site
+* Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfolio site
 * <a href="https://parceljs.org/" target="_blank">Parcel</a> in place to build your site when deploying
 * Code linting and formattting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency.
 
-All elements have been commented with notes, tips and directions. As you are working within the code you can use those are your guide, as well as this README.
+### Create your portfolio
 
-### Run this template to see sample site
+1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
+2. Navigate to the main page of the newly created repository.
+3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
-To run what's in this repo, you need to first start a Codespaces instance.
+    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
+    
+4. Wait as GitHub initializes the Codespace.
 
-1. Navigate to the main page of the newly created repository.
-2. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
-<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px; padding: 1rem;"/>
+    <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
+    
+When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
 
-This will trigger a creation of a new Codespaces development environment, and launch that environment in a new tab for you to start working in.
+When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
 
-When complete you will see VS Code load with a terminal section at the bottom. Here you will see `npm install` and `npm run start` automatically executing for you so that you can immediately view the React app running.
+   <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px;"/>
 
-### Utilize this template to create your site
 
-This repo is created as a template for you to customize, extend and deploy as your own site. To do this, click the "Use this template" button at the top of this repo, or us this [link to generate your own Codespaces Teaching JS Template](https://github.com/microsoft/codespaces-teaching-template-js/generate).
-
-You will then be taken to a page to select the owner, provide a name and a description for this new repository and if you'd like it public or private.
-
-When all is selected, press the "Create repository from template" button the bottom to create your own repo from this template.
-
-</details>
-
-## Customize your site in 3 steps
+## ✨ Customize your site in 3 steps
 
 This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
 
