@@ -1,19 +1,19 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# JavaScript React Portfolio Site with GitHub Codespaces
+# JavaScript Portfolio Site with GitHub Codespaces
 
-_Create and deploy your own portfolio website in minutes._
+_Create, customize and deploy your own portfolio website in minutes._
 
-With this template repository you can quickly create, customize and deploy your own website using the <a href="https://reactjs.org/" target="_blank">React</a> framework. We have the development environment ready so that you can focus on the project, and how you want to utilize it for yourself.
+With this JavaScript Codespace template repository we have the development environment and base set and ready to go. You can immediately take this template, and focus on how you want to customize without any setup.
 
-* **Who is this for?** Anyone looking to create a portfolio site, learn web development, learn React, or just looking to test out Codepsaces.
-* **How much experience do students need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend.
+* **Who is this for?** Anyone looking to create a portfolio site, learn web development, or just looking to test out Codepsaces.
+* **How much experience do you need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend.
 * **Tools needed:** _None_. No need to install anything! All you need is a web browser.
 * **Prerequisites:** _None_. This template will provide you a working and deployable web app you can immediately extend to create your own site with no web development background.
 
 ## About this portfolio template
 
-Our goal is to give a way to quickly create, customize and deploy your own portfolio website using GitHub Codespaces.
+Our goal is to give a way to quickly create, customize and deploy your own portfolio website using GitHub Codespaces. This project is built to be a bit of "choose your own adventure", meaning you can customize it, and give it as much or as little time as you have. 
 
 Using this template you will:
 
@@ -22,11 +22,18 @@ Using this template you will:
 * Create your own **free** personalized and deployed live website
 * Have something you can build on to highlight your work as build new projects
 
-This project is built to be a bit of "choose your own adventure", meaning you can customize it, and give it as much or as little time as you have. Below we will guide you through how to customize and challenges to extend, you choose your path.
 
 ## What is GitHub Codespace and how will it help me?
 
 A Codespace is a development environment that's hosted in the cloud that you can configure.
+
+### Quick Start
+
+1. Click the **Use this Template** button
+2. Select the repository owner (e.g. your GitHub account)
+3. Enter a unique name for your new repository
+4. Click the **Code** button
+5. Click **Create Codespace on main** button
 
 ### Why use it
 
@@ -35,7 +42,13 @@ A Codespace is a development environment that's hosted in the cloud that you can
 * Can be configured and customized.
 * Integrates with your repositories on GitHub.
 
-### Customization
+<details>
+   <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
+   
+   [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
+</details>
+
+## Customization
 
 You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
 
@@ -43,25 +56,23 @@ You can configure things like:
 
 * Extensions, you can specify what extensions should be preinstalled.
 * Dotfiles and settings.
+* Operating system libraries and dependencies
 
-> Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+> 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
-## Get familiar with project files and folders
+## 🗃️ JavsScript portfolio template
 
 This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
 
 The repo contains the following:
 
-* `/.devcontainer`, containers the Codespaces configuration files
-* `/src`, where you will find all the HTML, JS and CSS to that is used to build your portfolio site.
-* `.eslintrc`, settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
-* `.prettierrc`, settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
-* `CODE_OF_CONDUCT`, Microsoft's Code of Conduct for open source repositories. Learn more by reading the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT) file in this repo.
-* `LICENSE`, this project is under MIT license. Learn more by reading the [LICENSE](./LICENSE) file in this repo.
+* `/.devcontainer`
+  - .devcontainer/Dockerfile: Configuration file used by Codespaces to determine operating system and other details.
+  - .devcontainer/devcontainer.json, A configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
+* `/src`: HTML, JS and CSS files used to build your portfolio site.
+* `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
+* `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
 * `package.json` and `package-lock.json`, these 2 files define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
-* `README.md`. this file describes this repository and what's in it.
-* `SECURITY`, Microsoft's security policies for open source repositories. Read more in [SECURITY](./SECURITY)
-* `SUPPORT`, how best to get assistance with this repo. Read more in [SUPPORT](./SUPPORT)
 
 ## Getting started
 
