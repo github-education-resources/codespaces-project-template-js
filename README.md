@@ -48,18 +48,6 @@ A Codespace is a development environment that's hosted in the cloud that you can
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
-## Customization
-
-You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
-
-You can configure things like:
-
-* Extensions, you can specify what extensions should be preinstalled.
-* Dotfiles and settings.
-* Operating system libraries and dependencies
-
-> 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
-
 ## 🗃️ JavsScript portfolio template
 
 This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
@@ -111,18 +99,15 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 > See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
-<details id="customize-1">
-<summary><h3>1. Add your "about me" and social accounts</h3></summary>
+### Step 1: Add your "about me" and social accounts
 
 Within `App.js` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
 
 Update to the name and title you'd like displayed at the top of your site.
 
 _Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list, or set to an empty string ("") it will not display the icon and link.
-</details>
 
-<details id="customize-3">
-<summary><h3>2. Update images</h3></summary>
+### Step 2: Update images
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
@@ -133,10 +118,8 @@ Go to the following components to update the `import image...` line to reference
 * `Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
 * `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
 * `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
-</details>
 
-<details id="customize-3">
-<summary><h3>3. Add items you've worked on</h3></summary>
+### Step 3: Add items you've worked on
 
 The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
@@ -144,9 +127,7 @@ Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array 
 
 The sample design has 4, but the number you include is up to you. 
 
-</details>
-
-## Deploy your web application
+## 🏃 Deploy your web application
 
 Project includes the setup needed for you to deploy **free** to both <a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
@@ -182,7 +163,7 @@ With your project open in Codespaces:
 ## Challenges
 
 <details id="challenge-1">
-<summary><h3>1. Add an extension</h3></summary>
+<summary><h4>1. Customize your Codespace</h4></summary>
 
 Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with, here's how:
 
@@ -209,11 +190,13 @@ To find the unique identifier of an extension:
 
 * Navigate to the extension's web page, like so <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow</a>
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
+   
+> 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 </details>
 
 <details id="challenge-2">
-<summary><h3>2. Update to smooth scroll to a section</h3></summary>
+<summary><h4>2. Update to smooth scroll to a section</h4></summary>
 
 In your site header you have links to each section below. Click one of these links and watch it scroll the page to that section. Not really a scroll right?
 
@@ -232,7 +215,7 @@ Your site should already be running in your Codespace, and the change will reloa
 </details>
 
 <details id="challenge-3">
-<summary><h3>3. Animate desk photo</h3></summary>
+<summary><h4>3. Animate desk photo</h4></summary>
 
 Animations are a way you can easily add some motion to elements on your page to increase user interactivity, and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
 
@@ -266,7 +249,7 @@ Your site should already be running in your Codespace, and the change will reloa
 </details>
 
 <details id="challenge-4">
-<summary><h3>4. Add a new section</h3></summary>
+<summary><h4>4. Add a new section</h4></summary>
 
 We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own. That includes adding new sections. For example, let's add an education section to your site. 
 
@@ -302,7 +285,10 @@ In your Codespace, your portfolio application should be running and will reload 
 
 </details>
 
-## Learn more
+## 📚 Other Resources
 
-* [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
-* [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
+* [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
+* [Use dev containers locally](https://github.com/microsoft/vscode-remote-try-node)
+
+## 🔎 Found an issue or have an idea for improvement? 
+Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new).
