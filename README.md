@@ -101,7 +101,7 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 ### Step 1: Add your "about me" and social accounts
 
-Within `App.js` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
+Within `App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
 
 Update to the name and title you'd like displayed at the top of your site.
 
@@ -145,7 +145,7 @@ With your project open in Codespaces:
     1. **Project structure**: select "React"
     1. **Location of application code**: `/`
     1. **Build location**: `dist`
-1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your poroject. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running. 
+1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running. 
 
 ### GitHub Pages
 
