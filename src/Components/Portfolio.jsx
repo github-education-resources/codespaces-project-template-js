@@ -55,7 +55,9 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box">
-              <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+              </a>
               <p className="small">{project.description}</p>
             </div>
           ))}
