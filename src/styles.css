@@ -81,6 +81,27 @@ p.small {
   font-size: 15px;
 }
 
+hr {
+  margin: 2.5rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li::marker {
+  color: #4e567e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #4e567e;
+}
+
 .container {
   margin: 20px auto;
   display: grid;
@@ -96,18 +117,6 @@ p.small {
   flex-direction: column;
   border: 1px solid rgb(204, 204, 204);
   text-align: center;
-}
-
-hr {
-  margin: 2.5rem;
-}
-
-li {
-  line-height: 1.7;
-}
-
-li::marker {
-  color: #4e567e;
 }
 
 img.socialIcon {
