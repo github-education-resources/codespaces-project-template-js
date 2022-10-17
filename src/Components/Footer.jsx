@@ -19,6 +19,13 @@ import microsoftIcon from "../images/socials/microsoft.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
+/**
+ * 💡 Learning resources
+ * 
+ *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
+ *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
+ */
+
 const Footer = (props) => {
   const {
     devDotTo,
@@ -59,42 +66,37 @@ const Footer = (props) => {
           </a>
         )}
         {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`}>
+          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
             <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`}>
+          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
         {instagram && (
-          <a href={`https://www.instagram.com/${instagram}`}>
+          <a href={`https://www.instagram.com/${instagram}`} target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
         )}
         {linkedIn && (
-          <a href={`https://www.linkedin.com/in/${linkedIn}`}>
+          <a href={`https://www.linkedin.com/in/${linkedIn}`} target="_blank" rel="noopener noreferrer">
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
         {medium && (
-          <a href={`https://medium.com/@${medium}`}>
+          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
-        {microsoft && (
-          <a href={`https://learn.microsoft.com/users/${microsoft}`}>
-            <img src={microsoftIcon} alt="Microsoft" className="socialIcon" />
-          </a>
-        )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`}>
+          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
         {youTube && (
-          <a href={`https://www.youtube.com/c/${youTube}`}>
+          <a href={`https://www.youtube.com/c/${youTube}`} target="_blank" rel="noopener noreferrer">
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
