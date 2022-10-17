@@ -17,18 +17,6 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 ![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
 
-Using this template you will:
-
-* Learn how to use Codespaces (_all you need is a web browser_)
-* Learn a bit of JavaScript, React, HTML and CSS
-* Create your own **free** personalized and deployed live website
-* Have something you can build on to highlight your work as build new projects
-
-
-## What is GitHub Codespace and how will it help me?
-
-A Codespace is a development environment that's hosted in the cloud that you can configure.
-
 ### Quick Start
 
 1. Click the **Use this Template** button
@@ -37,18 +25,13 @@ A Codespace is a development environment that's hosted in the cloud that you can
 4. Click the **Code** button
 5. Click **Create Codespace on main** button
 
-### Why use it
-
-* Repeatable environment offering a 0-config experience.
-* Runs in the cloud.
-* Can be configured and customized.
-* Integrates with your repositories on GitHub.
-
 <details>
-   <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
+   <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
    
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
+
+<br />
 
 ## 🗃️ JavsScript portfolio template
 
@@ -63,6 +46,8 @@ The repo contains the following:
 * `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
 * `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
 * `package.json` and `package-lock.json`: Defines the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
+
+<br />
 
 ## 🚀 Getting started
 
@@ -86,12 +71,13 @@ Your development environment is all set for you to start. Based on our [JavaScri
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
     
-When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
+5. When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
 
-When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
+   When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
 
    <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px;"/>
 
+<br />
 
 ## ✨ Customize your site in 3 steps
 
@@ -101,15 +87,29 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 > See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
-### Step 1: Add your "about me" and social accounts
+### 1️⃣ Add your "about me" and social accounts
 
 Within `App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
+
+```javascript
+const siteProps = {
+  name: "Alexandrie Grenier",
+  title: "Web Designer & Content Creator",
+  email: "alex@example.com",
+  gitHub: "microsoft",
+  instagram: "microsoft",
+  linkedIn: "satyanadella",
+  medium: "",
+  twitter: "microsoft",
+  youTube: "microsoft",
+};
+```
 
 Update to the name and title you'd like displayed at the top of your site.
 
 _Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list, or set to an empty string ("") it will not display the icon and link.
 
-### Step 2: Update images
+### 2️⃣ Update images
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
@@ -118,16 +118,50 @@ A couple possible sites to find photos are <a href="https://pixabay.com/" target
 Go to the following components to update the `import image...` line to reference the new image you downloaded for that section:
 
 * `Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
+   ```javascript
+      import image from "../images/server-wall.jpg";
+   ```
 * `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
+   ```javascript
+      import image from "../images/mosaic.svg";
+   ```
 * `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
+   ```javascript
+      import image from "../images/design-desk.jpeg";
+   ```
 
-### Step 3: Add items you've worked on
+### 3️⃣ Add items you've worked on
 
 The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
 Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description and URL.
 
 The sample design has 4, but the number you include is up to you. 
+
+```javascript
+const projectList = [
+  {
+    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    description: "Collaboration to create a beginner friendly....",
+    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+  },
+  {
+    title: "Web Development for Beginners",
+    description: "Contributed sketch note imagery to accompany...",
+    url: "https://github.com/microsoft/web-dev-for-beginners",
+  },
+  {
+    title: "My Resume Site",
+    description: "Created from Microsoft's resume workshop...",
+    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+  },
+  {
+    title: "GitHub Codespaces and github.dev",
+    description: "Video interview to explain when to use GitHub.dev...",
+    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  },
+];
+```
 
 ## 🏃 Deploy your web application
 
