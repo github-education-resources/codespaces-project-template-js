@@ -2,18 +2,20 @@
 
 # JavaScript Portfolio Site with GitHub Codespaces
 
-_Create, customize and deploy your own portfolio website in minutes._
+_Create, customize and deploy your own portfolio website in minutes._ ✨
 
-With this JavaScript Codespace template repository we have the development environment and base set and ready to go. You can immediately take this template, and focus on how you want to customize without any setup.
+In this template repository we have the development environment and base set and ready to go. So that you can immediately launch the Codespace to customize with no setup.
 
-* **Who is this for?** Anyone looking to create a portfolio site, learn web development, or just looking to test out Codepsaces.
-* **How much experience do you need?** Zero. This template is built ready for all, regardless of experience level. You get to decided how much you'd like to customize and extend.
+* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codepsaces.
+* **How much experience do you need?** __Zero__. You decided how much you want to cusomize based on your experience, and time available.
 * **Tools needed:** _None_. No need to install anything! All you need is a web browser.
-* **Prerequisites:** _None_. This template will provide you a working and deployable web app you can immediately extend to create your own site with no web development background.
+* **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
 ## About this portfolio template
 
-Our goal is to give a way to quickly create, customize and deploy your own portfolio website using GitHub Codespaces. This project is built to be a bit of "choose your own adventure", meaning you can customize it, and give it as much or as little time as you have. 
+In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.  
+
+
 
 Using this template you will:
 
