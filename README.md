@@ -169,32 +169,45 @@ Project includes the setup needed for you to deploy **free** to both <a href="ht
 
 ### Azure Static Web Apps
 
-<a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> is Microsoft's hosting solution through Azure for static sites (or sites that are rendered in the user's browser, not on a server). Will provide you additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+<a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> is Microsoft's hosting solution for static sites (or sites that are rendered in the user's browser, not on a server) through Azure. This service provides additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+
+You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
+
+* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/)
+* [Create a new Azure account](https://azure.microsoft.com/en-US/)
 
 With your project open in Codespaces:
 
-1. Go to the Azure icon in the left sidebar. Log in if you are not already. If you are new to Azure, follow the provide prompts to create your account.
+1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
 1. From Azure menu click “+” sign and then “Create Static Web App”.
-1. If you are not logged into GitHub you will be prompted to log in, and if you have any pending file changes you will then be prompted to commit those changes. 
-1. You will be prompted to set you application information:
+1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
+1. Set you application information when prompted:
     1. **Region**: pick the one closest to you
     1. **Project structure**: select "React"
     1. **Location of application code**: `/`
     1. **Build location**: `dist`
-1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running. 
+1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running.
+
+![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
+
 
 ### GitHub Pages
 
-<a href="https://pages.github.com/" target="_blank">GitHub Pages</a> allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps. 
+<a href="https://pages.github.com/" target="_blank">GitHub Pages</a> allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
 
 With your project open in Codespaces:
 
-1. Go to `package.json` and find the "homepage" value, and update it to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it.
-1. Commit and push that change to `package.json` to your GitHub remote repo.
-1. Open a new terminal from the menu or by pressing `crtl` + `shift` + `\``
-1. Within the terminal window run `npm run deploy`. This will first run the predeploy script to build the project, followed by the deploy script that will push those bundled files to a new branch on your repo (gh-pages) that will be used for you GitHub Pages site.
+1. Open `package.json` and update the following values:
+    1. **homepage**: set to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it
+    1. **build-gh**: replace `github-username` with your GitHub username and `repo-name` with the repository name
+1. Commit and push those changes to `package.json` to your GitHub remote repo.
+1. Open a new terminal from the menu or by pressing `crtl` + `shift` + ` (or open top left menu, select "Terminal" and "New Terminal")
+1. Within the terminal window run `npm run deploy`. This will first run the pre-deploy script to build the project, followed by the deploy script that will push those bundled files to a new branch on your repo (gh-pages) that will be used for you GitHub Pages site.
 1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the url (that should match the “homepage” value you set in package.json)
 
+![Azure Static Web App deploy](/__images__/github-pages-deploy.gif "Azure Static Web App deploy")
+
+<br />
 
 ## Challenges
 
