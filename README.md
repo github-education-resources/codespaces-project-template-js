@@ -24,6 +24,8 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 3. Enter a unique name for your new repository
 4. Click the **Code** button
 5. Click **Create Codespace on main** button
+1. [Customize your portfolio site](#-customize-your-site-in-3-steps)
+1. [Deploy your site](#-deploy-your-web-application)
 
 <details>
    <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
@@ -209,10 +211,11 @@ With your project open in Codespaces:
 
 <br />
 
-## Challenges
+## 🏆 Challenges
 
-<details id="challenge-1">
-<summary><h4>1. Customize your Codespace</h4></summary>
+Below are 4 additional ways you can continue to customize your portfolio site and learn some Codespaces, CSS, HTML and JavaScript along the way.
+
+### 1. Customize your Codespace
 
 Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with, here's how:
 
@@ -242,10 +245,8 @@ To find the unique identifier of an extension:
    
 > 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
-</details>
 
-<details id="challenge-2">
-<summary><h4>2. Update to smooth scroll to a section</h4></summary>
+### 2. Update to smooth scroll to a section
 
 In your site header you have links to each section below. Click one of these links and watch it scroll the page to that section. Not really a scroll right?
 
@@ -261,10 +262,9 @@ html {
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Click a link in the top header to see the smooth scroll in action.
 
-</details>
 
-<details id="challenge-3">
-<summary><h4>3. Animate desk photo</h4></summary>
+
+### 3. Animate desk photo
 
 Animations are a way you can easily add some motion to elements on your page to increase user interactivity, and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
 
@@ -294,11 +294,10 @@ Your image tag should look something like:
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Scroll up and down the page and watch your desk photo slide onto the page.
 
-> **Bonus**: Animate scroll down arrow
-</details>
+> 🤩 **Bonus**: Animate scroll down arrow
 
-<details id="challenge-4">
-<summary><h4>4. Add a new section</h4></summary>
+
+### 4. Add a new section
 
 We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own. That includes adding new sections. For example, let's add an education section to your site. 
 
@@ -332,7 +331,6 @@ Then below in the rendering of `App`, add the `Education` component were you wou
 
 In your Codespace, your portfolio application should be running and will reload your site with the changes. 
 
-</details>
 
 <br />
 
