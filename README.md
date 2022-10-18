@@ -252,13 +252,12 @@ In your site header you have links to each section below. Click one of these lin
 
 Let's make this a better user experience by slowing that down so the user has a sense of what is happening, and where they are navigating to on the page. 
 
-Open `styles.css`, which is the stylesheet for your portfolio application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, so let's add the following css snippet to set the scrolling for the `html` element:
-
-```css
-html {
-  scroll-behavior: smooth;
-}
-```
+1. Open `styles.css`, which is the stylesheet for your portfolio application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, so let's add the following css snippet to set the scrolling for the `html` element:
+    ```css
+    html {
+      scroll-behavior: smooth;
+    }
+    ```
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Click a link in the top header to see the smooth scroll in action.
 
@@ -268,29 +267,26 @@ Your site should already be running in your Codespace, and the change will reloa
 
 Animations are a way you can easily add some motion to elements on your page to increase user interactivity, and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
 
-Start by opening your site's stylesheet, `styles.css` within your Codespace. We are going to first define the animation sequence by adding a `@keyframes` definition to slide in from the left:
+1. Open your site's stylesheet, `styles.css` within your Codespace. Add the animation sequence by adding a `@keyframes` definition to slide in from the left:
+    ```css
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    ``` 
+1. Now that we have defined our `slideInLeft` animation sequence we can tell our desk photo to animate itself with that sequence. Open `Portfolio.jsx` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
+    ```css
+    animation: "1s ease-out 0s 1 slideInLeft";
+    ```
 
-```css
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-``` 
-
-Now that we have defined our `slideInLeft` animation sequence we can tell our desk photo to animate itself with that sequence. Open up the `Portfolio.jsx` component in your Codespaces, and find the `img` tag. You wills ee it utilizes inline CSS to set it's styling. Within it's style definition add the following:
-
-```css
-animation: "1s ease-out 0s 1 slideInLeft";
-```
-
-Your image tag should look something like:
-```html
-<img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
-```
+    Your image tag should look something like:
+    ```html
+    <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
+    ```
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Scroll up and down the page and watch your desk photo slide onto the page.
 
@@ -299,35 +295,34 @@ Your site should already be running in your Codespace, and the change will reloa
 
 ### 4. Add a new section
 
-We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own. That includes adding new sections. For example, let's add an education section to your site. 
+We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own and add new sections relevant to what you want on your site.
 
-Start by creating the new component for the section. Within the `Components` folder, add a new file `Education.jsx`. This will be our new education section. 
+For an example, let's add an education section to your portfolio site. 
 
-Within that file add the component function, export and information you'd like to include:
+1. Create a new component for the section within the `Components` folder. Add a new file called `Education.jsx`.
 
-```javascript
-import React from "react";
-
-const Education = () => {
-    return(
-        <section className="light" id="portfolio">
-            <h2>Education</h2>
-        </section>
-    )
-}
-
-export default Education;
-```
-
-Now, let's import this new component into our `App.jsx` and have it render. Within your `App.jsx` file import your new `Education` component at the top by adding the following:
-```javascript
-import Footer from "./Components/Footer";
-```
-
-Then below in the rendering of `App`, add the `Education` component were you would like it to render within the page by inserting:
-```javascript
-<Education />
-```
+1. In `Education.jsx` add the component function, export and information you'd like to include:
+    ```javascript
+    import React from "react";
+    
+    const Education = () => {
+        return(
+            <section className="light" id="portfolio">
+                <h2>Education</h2>
+            </section>
+        )
+    }
+    
+    export default Education;
+    ```
+3. In `App.jsx` import your new `Education` component at the top by adding the following:
+    ```javascript
+    import Footer from "./Components/Footer";
+    ```
+4. Now add the `Education` component were you would like it to render within the page by inserting:
+    ```javascript
+    <Education />
+    ```
 
 In your Codespace, your portfolio application should be running and will reload your site with the changes. 
 
