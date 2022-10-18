@@ -321,10 +321,20 @@ In your Codespace, your portfolio application should be running and will reload 
 
 </details>
 
-## 📚 Other Resources
+<br />
+
+## 📚 Resources
 
 * [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
 * [Use dev containers locally](https://github.com/microsoft/vscode-remote-try-node)
+
+> #### Codespaces Browser App
+>
+> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
+>
+> <img src="https://user-images.githubusercontent.com/82035/196431310-806a36ca-f122-4739-83f6-79afa1543e7c.png" alt="Web application started on port 1234" style="width: 800px;"/>
+
+<br />
 
 ## 🔎 Found an issue or have an idea for improvement? 
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new).
