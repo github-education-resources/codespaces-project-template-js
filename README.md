@@ -215,6 +215,11 @@ With your project open in Codespaces:
 
 Below are 4 additional ways you can continue to customize your portfolio site and learn some Codespaces, CSS, HTML and JavaScript along the way.
 
+  1. [Customize your Codespace](#1-customize-your-codespace)
+  1. [Update to smooth scroll to a section](#2-update-to-smooth-scroll-to-a-section)
+  1. [Animate the desk photo](#3-animate-desk-photo)
+  1. [Add a new section](#4-add-a-new-section)
+
 ### 1. Customize your Codespace
 
 Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with, here's how:
@@ -332,7 +337,7 @@ In your Codespace, your portfolio application should be running and will reload 
 ## 📚 Resources
 
 * [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
-* [Use dev containers locally](https://github.com/microsoft/vscode-remote-try-node)
+* [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
 
 > #### Codespaces Browser App
 >
