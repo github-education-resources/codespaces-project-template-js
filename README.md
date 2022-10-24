@@ -6,8 +6,8 @@ _Create, customize and deploy your own portfolio website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch the Codespace to customize with no setup.
 
-* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codepsaces.
-* **How much experience do you need?** __Zero__. You decided how much you want to cusomize based on your experience, and time available.
+* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
+* **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
 * **Tools needed:** _None_. No need to install anything! All you need is a web browser.
 * **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
@@ -35,7 +35,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 <br />
 
-## 🗃️ JavsScript portfolio template
+## 🗃️ JavaScript Portfolio template
 
 This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
 
@@ -53,13 +53,13 @@ The repo contains the following:
 
 ## 🚀 Getting started
 
-This portfolio site project is filled with sample data so that you can immediately open in Codespaces, see it running, and deploy at any point.
+This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
 
 Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
 
 * Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfolio site
 * <a href="https://parceljs.org/" target="_blank">Parcel</a> in place to build your site when deploying
-* Code linting and formattting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency.
+* Code linting and formatting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency.
 
 ### Create your portfolio
 
@@ -91,7 +91,7 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 ### 1️⃣ Add your "about me" and social accounts
 
-Within `App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email and social accounts.
+Within `App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email, and social accounts.
 
 ```javascript
 const siteProps = {
@@ -109,13 +109,13 @@ const siteProps = {
 
 Update to the name and title you'd like displayed at the top of your site.
 
-_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list, or set to an empty string ("") it will not display the icon and link.
+_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list or set to an empty string ("") it will not display the icon and link.
 
 ### 2️⃣ Update images
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
-A couple possible sites to find photos are <a href="https://pixabay.com/" target="_blank">Pixabay</a> and <a href="https://unsplash.com" target="_blank">Unsplash</a>. Photos, illustrations, vectors, your choice! When you found your images, save each one to `/src/images` with a short, meaningful file name.
+A couple possible sites to find photos are <a href="https://pixabay.com/" target="_blank">Pixabay</a> and <a href="https://unsplash.com" target="_blank">Unsplash</a>. Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
 
 Go to the following components to update the `import image...` line to reference the new image you downloaded for that section:
 
@@ -136,14 +136,14 @@ Go to the following components to update the `import image...` line to reference
 
 The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
-Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description and URL.
+Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
 
 The sample design has 4, but the number you include is up to you. 
 
 ```javascript
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "10 Things to know about Azure Static Web Apps 🎉",
     description: "Collaboration to create a beginner friendly....",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
@@ -158,7 +158,7 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitHub Codespaces and GitHub.dev",
     description: "Video interview to explain when to use GitHub.dev...",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
@@ -203,9 +203,9 @@ With your project open in Codespaces:
     1. **homepage**: set to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it
     1. **build-gh**: replace `github-username` with your GitHub username and `repo-name` with the repository name
 1. Commit and push those changes to `package.json` to your GitHub remote repo.
-1. Open a new terminal from the menu or by pressing `crtl` + `shift` + ` (or open top left menu, select "Terminal" and "New Terminal")
+1. Open a new terminal from the menu or by pressing `ctrl` + `shift` + ` (or open top left menu, select "Terminal" and "New Terminal")
 1. Within the terminal window run `npm run deploy`. This will first run the pre-deploy script to build the project, followed by the deploy script that will push those bundled files to a new branch on your repo (gh-pages) that will be used for you GitHub Pages site.
-1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the url (that should match the “homepage” value you set in package.json)
+1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the URL (that should match the “homepage” value you set in package.json)
 
 ![Azure Static Web App deploy](/__images__/github-pages-deploy.gif "Azure Static Web App deploy")
 
@@ -253,7 +253,7 @@ To find the unique identifier of an extension:
 
 ### 2. Update to smooth scroll to a section
 
-In your site header you have links to each section below. Click one of these links and watch it scroll the page to that section. Not really a scroll right?
+In your site header you have links to each section below. Click one of these links and watch it scroll the page to that section. Not really a scroll, right?
 
 Let's make this a better user experience by slowing that down so the user has a sense of what is happening, and where they are navigating to on the page. 
 
@@ -270,7 +270,7 @@ Your site should already be running in your Codespace, and the change will reloa
 
 ### 3. Animate desk photo
 
-Animations are a way you can easily add some motion to elements on your page to increase user interactivity, and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
+Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
 
 1. Open your site's stylesheet, `styles.css` within your Codespace. Add the animation sequence by adding a `@keyframes` definition to slide in from the left:
     ```css
@@ -324,7 +324,7 @@ For an example, let's add an education section to your portfolio site.
     ```javascript
     import Footer from "./Components/Footer";
     ```
-4. Now add the `Education` component were you would like it to render within the page by inserting:
+4. Now add the `Education` component where you would like it to render within the page by inserting:
     ```javascript
     <Education />
     ```
@@ -341,7 +341,7 @@ In your Codespace, your portfolio application should be running and will reload 
 
 > #### Codespaces Browser App
 >
-> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
+> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app lets you launch your Codespace within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
 >
 > <img src="https://user-images.githubusercontent.com/82035/196431310-806a36ca-f122-4739-83f6-79afa1543e7c.png" alt="Web application started on port 1234" style="width: 800px;"/>
 
