@@ -74,7 +74,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestro 
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
     
-5. Cuando haya terminado, verás que tu Codespace comenzara con una sección de terminal en la parte inferior. Aquí verás `npm install` ejecutando. Cuando haya terminado, ve a la terminal donde puedes ejecutar la aplicación web con el siguiente comando: `npm run start` 
+5. Cuando haya terminado, verás que tu Codespace comenzara con una sección de terminal en la parte inferior. Aquí verás `npm install` ejecutando. Después de que finalice npm, ve a la terminal donde puedes ejecutar la aplicación web con el siguiente comando: `npm run start` 
 
    Cuando se inicie la aplicación web, verás un mensaje que te indicará que se inició correctamente en el puerto 1234, y puedes abrir ese sitio dentro de su navegador:
 
@@ -88,7 +88,7 @@ Este proyecto está diseñado para ser fácilmente personalizable. Cada sección
 
 **Para cada paso, abre el proyecto en Codespaces, luego puede realizar y confirmar sus cambios mientras está dentro de su Codespace.**
 
-> See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
+>  Consulta el [uso del control de código fuente en tu codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces.
 
 ### 1️⃣ Agrega tu "sobre mí" y tus cuentas sociales
 
@@ -133,11 +133,11 @@ Ve a los siguientes componentes para actualizar la línea `import image...` para
       import image from "../images/design-desk.jpeg";
    ```
 
-### 3️⃣ Agrega elementos en los que has trabajado
+### 3️⃣ Agrega proyectos en los que has trabajado
 
-Esta sección del portafolio es el área para resaltar los elementos en los que has trabajado. Estos serían artículos, videos, diseños de logotipos, proyectos de GitHub, ¡cualquier cosa que te destaque!
+Esta sección del portafolio es el área para resaltar los proyectos en los que has trabajado. Estos serían artículos, videos, diseños de logotipos, proyectos de GitHub, ¡cualquier cosa que te destaque!
 
-En el `Portfolio.jsx` ve a la variable `projectList`. Esta es una array de objetos JavaScript. Cada elemento que desees resaltar necesita: título, descripción y URL.
+En el `Portfolio.jsx` ve a la variable `projectList`. Esta es un array de objetos JavaScript. Cada elemento que desees resaltar necesita: título, descripción y URL.
 
 El diseño de muestra tiene 4, pero el número que incluya depende de usted.
 
@@ -214,11 +214,11 @@ Con tu proyecto abierto en Codespaces:
 
 ## 🏆 Retos
 
-A continuación se presentan 4 formas adicionales en que puede continuar personalizando el sitio de tu portafolio y aprender algunos Codespaces, CSS, HTML y JavaScript en el camino.
+A continuación, se presentan 4 formas adicionales en que puede continuar personalizando el sitio de tu portafolio y aprender algunos Codespaces, CSS, HTML y JavaScript en el camino.
 
   1. [Personaliza tu Codespace](#1-personaliza-tu-codespace)
-  1. [Update to smooth scroll to a section](#2-actualiza-a-smooth-scroll-para-desplazarte-a-una-sección)
-  1. [Anima la foto de escritorio](#3-animar-la-foto-de-escritorio)
+  1. [Actualiza a smooth scroll para desplazarte a una sección](#2-actualiza-a-smooth-scroll-para-desplazarte-a-una-sección)
+  1. [Anima tu fondo](#3-anima-tu-fondo)
   1. [Añade una nueva sección](#4-agrega-una-nueva-sección)
 
 ### 1. Personaliza tu Codespace
@@ -258,7 +258,7 @@ En el encabezado de tu sitio tiene enlaces a cada sección a continuación. Haz 
 
 Hagamos de esta una mejor experiencia de usuario ralentizando eso para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. 
 
-1. Abre `styles.css`, que es la hoja de estilo para tu portafolio. Necesitamos agregar un estilo para `html`. Si te fijas, verás que ahora mismo los estilos `html` y `body` se están configurando juntos, así que agreguemos el siguiente fragmento de css para establecer el desplazamiento del elemento `html`:
+1. Abre `styles.css`, que es la hoja de estilo para tu portafolio. Necesitamos agregar un estilo para `html`. Si te fijas, verás que ahora mismo los estilos `html` y `body` se están configurando juntos, así que agreguemos el siguiente fragmento de CSS para establecer el desplazamiento del elemento `html`:
 
 
     ```css
@@ -270,7 +270,7 @@ Hagamos de esta una mejor experiencia de usuario ralentizando eso para que el us
 Tu sitio ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Haz clic en un enlace en el encabezado superior para ver el desplazamiento suave en acción.
 
 
-### 3. Animar la foto de escritorio
+### 3. Anima tu fondo
 
 Las animaciones son una forma de agregar fácilmente algo de movimiento a los elementos de tu página para aumentar la interactividad del usuario y resaltar los elementos que deseas que noten. Vamos a animar la foto de escritorio en la sección de portafolio. 
 
@@ -341,7 +341,7 @@ En su Codespace, tu aplicación con tu portafolio debe estar ejecutándose y vol
 ## 📚 Recursos
 
 * [Descripción general de los documentos de GitHub Codespaces](https://docs.github.com/codespaces/overview)
-* [Usar contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+* [Usa los contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
 
 > #### Aplicación de navegador Codespaces
 >
@@ -352,4 +352,4 @@ En su Codespace, tu aplicación con tu portafolio debe estar ejecutándose y vol
 <br />
 
 ## 🔎 ¿Encontraste un problema o tienes una idea para mejorar?
-Ayudanos a mejorar este repositorio al [¡avisarnos y abriendo un problema!](/../../issues/new).
+Ayúdanos a mejorar este repositorio al [¡avisarnos y abriendo un problema!](/../../issues/new).
