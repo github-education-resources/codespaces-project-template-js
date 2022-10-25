@@ -165,6 +165,8 @@ const projectList = [
 ];
 ```
 
+<br/>
+
 ## 🏃 Deploy your web application
 
 Project includes the setup needed for you to deploy **free** to both <a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
