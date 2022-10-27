@@ -135,7 +135,7 @@ Go to the following components to update the `import image...` line to reference
       const imageAltText = "desktop with books and laptop";
    ```
 
-### 3️⃣ Add items you've worked on and detail information text
+### 3️⃣ Add items you've worked on and detail text
 
 The about section helps to give people a bit more information about your skills and passions. Within `About.jsx` you will find 2 values to update:
 
