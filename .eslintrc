@@ -19,5 +19,13 @@
     "node": true,
     "es6": true
   },
-  "prettier/prettier": ["error", { "endOfLine": "auto" }]
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+    "react/prop-types": "warn"
+  }
 }

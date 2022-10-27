@@ -45,9 +45,9 @@ The repo contains the following:
   - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
   - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
 * `/src`: HTML, JS and CSS files used to build your portfolio site.
-* `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
-* `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
-* `package.json` and `package-lock.json`: Defines the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each.
+* `.eslintrc`: Settings for [ESLint](https://eslint.org/)</a> that is included for code consistency and quality.
+* `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
+* `package.json` and `package-lock.json`: Defines the project information for [Node.js](https://nodejs.org/)</a>, dependent packages and the versions needed of each.
 
 <br />
 
@@ -57,9 +57,9 @@ This portfolio site project is filled with sample data so that you can immediate
 
 Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
 
-* Simple <a href="https://reactjs.org/" target="_blank">React</a> application with components for each section of the portfolio site
-* <a href="https://parceljs.org/" target="_blank">Parcel</a> in place to build your site when deploying
-* Code linting and formatting using <a href="https://eslint.org/" target="_blank">ESLint</a> and <a href="https://prettier.io/" target="_blank">Prettier</a> for code consistency.
+* Simple [React](https://reactjs.org/) application with components for each section of the portfolio site
+* [Parcel](https://parceljs.org/) in place to build your site when deploying
+* Code linting and formatting using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code consistency.
 
 ### Create your portfolio
 
@@ -115,30 +115,39 @@ _Optional values_ are email address and social accounts. These are used in the `
 
 This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
 
-A couple possible sites to find photos are <a href="https://pixabay.com/" target="_blank">Pixabay</a> and <a href="https://unsplash.com" target="_blank">Unsplash</a>. Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
+A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
 
-Go to the following components to update the `import image...` line to reference the new image you downloaded for that section:
+Go to the following components to update the `import image...` line to reference the new image you downloaded for that section, as well as the `imageAltText` for the image:
 
 * `Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
    ```javascript
       import image from "../images/server-wall.jpg";
+      const imageAltText = "woman holding laptop standing by server room with glass wall";
    ```
 * `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
    ```javascript
       import image from "../images/mosaic.svg";
+      const imageAltText = "purple and blue abstract background";
    ```
 * `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
    ```javascript
       import image from "../images/design-desk.jpeg";
+      const imageAltText = "desktop with books and laptop";
    ```
 
-### 3️⃣ Add items you've worked on
+### 3️⃣ Add items you've worked on and detail information text
 
-The portfolio section is the area for you to highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+The about section helps to give people a bit more information about your skills and passions. Within `About.jsx` you will find 2 values to update:
+
+* `description`: short sentence or two describing yourself, career goal, and/or passions
+* `skillsList`: an [array](https://www.w3schools.com/js/js_arrays.asp) of your skills to list on the site, can be as many or little as you wish
+* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
+
+The second section to update is portfolio, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
 Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
 
-The sample design has 4, but the number you include is up to you. 
+The sample design has 4, but the number you include is up to you.
 
 ```javascript
 const projectList = [
@@ -169,16 +178,16 @@ const projectList = [
 
 ## 🏃 Deploy your web application
 
-Project includes the setup needed for you to deploy **free** to both <a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+Project includes the setup needed for you to deploy **free** to both [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) and [GitHub Pages](https://pages.github.com/)</a>.
 
 ### Azure Static Web Apps
 
-<a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> is Microsoft's hosting solution for static sites (or sites that are rendered in the user's browser, not on a server) through Azure. This service provides additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) is Microsoft's hosting solution for static sites (or sites that are rendered in the user's browser, not on a server) through Azure. This service provides additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
 
 You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
 
-* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/)
-* [Create a new Azure account](https://azure.microsoft.com/en-US/)
+* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
+* [Create a new Azure account](https://azure.microsoft.com/?WT.mc_id=academic-79839-sagibbon)
 
 With your project open in Codespaces:
 
@@ -194,10 +203,11 @@ With your project open in Codespaces:
 
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
 
+> 🤩 **Bonus**: [Setup a custom domain for your Azure Static Web App](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
 
 ### GitHub Pages
 
-<a href="https://pages.github.com/" target="_blank">GitHub Pages</a> allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
+[GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
 
 With your project open in Codespaces:
 
@@ -210,6 +220,8 @@ With your project open in Codespaces:
 1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the URL (that should match the “homepage” value you set in package.json)
 
 ![Azure Static Web App deploy](/__images__/github-pages-deploy.gif "Azure Static Web App deploy")
+
+> 🤩 **Bonus**: [Setup a custom domain for your GitHub pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
@@ -243,11 +255,11 @@ Your environment comes with preinstalled extensions. You can change which extens
    "oderwat.indent-rainbow"
    ```
   
-   What you did above was to add the unique identifier of an extension of the <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>. This will let Codespaces know that this extension should be pre-installed upon startup.
+   What you did above was to add the unique identifier of an extension of the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79839-sagibbon). This will let Codespaces know that this extension should be pre-installed upon startup.
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, like so <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow</a>
+* Navigate to the extension's web page, like so [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79839-sagibbon)
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
    
 > 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
@@ -339,7 +351,10 @@ In your Codespace, your portfolio application should be running and will reload 
 ## 📚 Resources
 
 * [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
+* [GitHub Codespaces guides](https://docs.github.com/en/codespaces/guides)
 * [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+* [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+* [Get started with React](https://learn.microsoft.com/en-us/training/modules/react-get-started/?WT.mc_id=academic-79839-sagibbon)
 
 > #### Codespaces Browser App
 >
