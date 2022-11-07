@@ -13,7 +13,7 @@ Neste repositório de templates temos o ambiente de desenvolvimento e a base def
 
 ## Sobre esse template de portifólio
 
-Neste template de portfólio poderá "escolhwe sua própria aventura", temos um aplicativo web baseado em [React](https://reactjs.org/) pronto para você personalizar e implantar facilmente usando apenas seu navegador web.
+Neste template de portfólio poderá "escolher sua própria aventura", temos um aplicativo web baseado em [React](https://reactjs.org/) pronto para você personalizar e implantar facilmente usando apenas seu navegador web.
 
 ![Aplicativo web JavaScript de perfil](/__images__/js-portfolio-site.gif "Aplicativo web JavaScript de perfil")
 
