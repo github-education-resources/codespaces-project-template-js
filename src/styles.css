@@ -34,7 +34,7 @@ section.light {
   padding: 8rem 0;
 }
 
-section img.background {
+section img.about-background {
   width: 100vmax;
   height: 100%;
   z-index: -1;
@@ -45,7 +45,22 @@ section img.background {
   pointer-events: none;
   object-fit: cover;
 }
-
+section img.profile-background {
+  height: 80%;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  transform: translate(-50%, 0);
+  pointer-events: none;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.539) 10px 15px;
+  border-radius: 15px;
+}
+#home {
+  z-index: -2;
+  background-image: linear-gradient(to bottom right, blue, white);
+}
 h1 {
   font-weight: 300;
   font-family: "Cormorant Garamond", serif;
