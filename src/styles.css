@@ -117,9 +117,49 @@ a:hover {
   flex-direction: column;
   border: 1px solid rgb(204, 204, 204);
   text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
 img.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+.skillset {
+  text-align: center;
+}
+
+p.icon-name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.icon-container {
+  display: flex;
+  align-self: center;
+  width: 40vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+#portfolio {
+  border: black 2px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1506784881475-0e408bbca849?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1768&q=80);
+}
+.portfolio-title {
+  display: flex;
+  border-radius: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  background-color: white;
 }

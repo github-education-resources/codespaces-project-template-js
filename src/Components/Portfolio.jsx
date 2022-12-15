@@ -31,49 +31,52 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Tic-Tac-Toe",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Tic-Tac-Toe created with HTML, CSS, and Javascript and deployed with Surge.sh. Made to be a 2-player.",
+    link: "https://github.com/JBenKaplan/u1_hw_tic_tac_toe",
+    url: "https://ttt-bk.surge.sh/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Checkers",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Another simple web game created with HTML, CSS, and Javascript. First school project.",
+    link: "https://github.com/JBenKaplan/Checkers",
+    url: "https://checkers-bk.surge.sh/",
   },
   {
-    title: "My Resume Site",
+    title: "Computer Workbench",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A computer creation tool inspired by pcpartpicker. Deployed with heroku using HTML, CSS, JS, React, Node.js, MongoDB, and Express.",
+    link: "https://github.com/JBenKaplan/Computer-Workbench",
+    url: "https://computer-workbench.herokuapp.com/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Foliage Friends",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Plant tracking app created using Postgresql, Express, React, and Node.js. Hand-rolled user registration and authentication to save user specific data. Deployed with heroku.",
+    link: "https://github.com/JBenKaplan/foliage-friends-app-frontend",
+    url: "https://foliage-friends.herokuapp.com/",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className="portfolio-title">Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
-        <div className="container">
-          {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
+      </div>
+      <div className="container">
+        {projectList.map((project) => (
+                <div className="box" key={project.title}>
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <h4>Link</h4>
               </a>
+                <a href={project.link} target="_blank" rel="noopener norefeffer">
+                  <h4>Repo</h4>
+                </a>
               <p className="small">{project.description}</p>
             </div>
           ))}
