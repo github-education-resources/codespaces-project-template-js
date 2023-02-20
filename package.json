@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "http://legend-of-tomorrow.github.io/{repo-name}",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
