@@ -336,7 +336,7 @@ For an example, let's add an education section to your portfolio site.
     ```
 3. In `App.jsx` import your new `Education` component at the top by adding the following:
     ```javascript
-    import Footer from "./Components/Footer";
+    import Education from "./Components/Education";
     ```
 4. Now add the `Education` component where you would like it to render within the page by inserting:
     ```javascript
