@@ -298,7 +298,7 @@ Let's make this a better user experience by slowing that down so the user has a 
       scroll-behavior: smooth;
     }
     ```
-1. Press the tab key to accept the suggestion.
+1. Press the tab key to accept the suggestion. (_Note: If you don't see this exact suggestion from Copilot, continue typing it to get the suggestion to appear._)
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Click a link in the top header to see the smooth scroll in action.
 
@@ -313,7 +313,7 @@ Animations are a way you can easily add some motion to elements on your page to 
     /* add a slide in animation */
     ```
 
-    It will then suggest the following animation sequence for you. Press the tab key to accept and you have your animation ready to use.
+    It should then suggest the following animation sequence for you. Press the tab key to accept, or continue to type until Copilot completes suggestions, and you have your animation ready to use.
     ```css
     @keyframes slideInLeft {
       0% {
