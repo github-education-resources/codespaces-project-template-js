@@ -179,7 +179,7 @@ const projectList = [
 
 ## 🏃 Deploy your web application
 
-Project includes the setup needed for you to deploy **free** to both [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) and [GitHub Pages](https://pages.github.com/)</a>.
+Project includes the setup needed for you to deploy **FREE** to either [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**or**_ [GitHub Pages](https://pages.github.com/)</a>. Instructions are included below for both:
 
 ### Azure Static Web Apps
 
