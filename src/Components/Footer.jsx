@@ -15,9 +15,7 @@ import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
-import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
-import youTubeIcon from "../images/socials/youtube.svg";
+
 
 /**
  * 💡 Learning resources
@@ -27,18 +25,8 @@ import youTubeIcon from "../images/socials/youtube.svg";
  */
 
 const Footer = (props) => {
-  const {
-    devDotTo,
-    email,
-    gitHub,
-    instagram,
-    linkedIn,
-    medium,
-    name,
-    primaryColor,
-    twitter,
-    youTube,
-  } = props;
+  const { devDotTo, email, gitHub, instagram, linkedIn, name, primaryColor } =
+    props;
 
   return (
     <div
@@ -92,7 +80,7 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
+        {/* {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
@@ -109,8 +97,8 @@ const Footer = (props) => {
             rel="noopener noreferrer"
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
-          </a>
-        )}
+          </a> */}
+        
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
