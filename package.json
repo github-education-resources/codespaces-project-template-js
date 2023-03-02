@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://charleslamb212.github.io/codespaces-project-template-js",
+  "homepage": "https://charleslamb212.github.io/cLportfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://charleslamb212.github.io/codespaces-project-template-js'",
+    "build-gh": "parcel build --public-url 'https://charleslamb212.github.io/cLportfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
