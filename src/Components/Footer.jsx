@@ -16,7 +16,6 @@ import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 
-
 /**
  * 💡 Learning resources
  *
@@ -25,8 +24,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
  */
 
 const Footer = (props) => {
-  const { devDotTo, email, gitHub, instagram, linkedIn, name, primaryColor } =
-    props;
+  const { devDotTo, email, gitHub, instagram, linkedIn, name, primaryColor } =    props;
 
   return (
     <div
@@ -98,7 +96,6 @@ const Footer = (props) => {
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a> */}
-        
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
@@ -121,7 +118,7 @@ Footer.propTypes = {
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
-  youTube: PropTypes.string,
+  youTube: PropTypes.
 
 };
 
