@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "My previous experiences have taught me the importance of effective communication and storytelling, which helps me create engaging designs";
+  "My previous experiences have taught me the importance of effective communication and storytelling, which helps me create engaging user experiences.";
 
 const About = () => {
   return (
