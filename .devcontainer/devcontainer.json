@@ -1,13 +1,16 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/devcontainers/images/tree/main/src/javascript-node
 {
-  "name": "Node.js",
-  "build": {
-    "dockerfile": "Dockerfile",
-    // Update 'VARIANT' to pick a Node version: 18, 16, 14.
-    // Append -bullseye or -buster to pin to an OS version.
-    // Use -bullseye variants on local arm64/Apple Silicon.
-    "args": { "VARIANT": "16-bullseye" }
+  "name": "JavaScript Portfolio Site with GitHub Codespaces",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "npm install",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "npm start"
   },
 
   // Configure tool-specific properties.
@@ -31,16 +34,17 @@
     }
   },
 
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-
-  // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install",
-
-  // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-  "remoteUser": "node",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {}
-  }
+  },
+
+  "portsAttributes": {
+    "1234": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+
+  "forwardPorts": [1234]
 }
