@@ -118,7 +118,7 @@ Footer.propTypes = {
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
-  youTube: PropTypes.
+  youTube: PropTypes.string
 
 };
 
