@@ -63,7 +63,7 @@ Your development environment is all set for you to start. Based on our [JavaScri
 
 ### Create your portfolio
 
-1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
+1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-project-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
 1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look on Make changes using Copilot 
 1. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
