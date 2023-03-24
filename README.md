@@ -68,7 +68,8 @@ Your development environment is all set for you to start. Based on our [JavaScri
 1. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
+    <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
+
     
 4. Wait as GitHub initializes the Codespace.
 

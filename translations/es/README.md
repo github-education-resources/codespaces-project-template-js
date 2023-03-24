@@ -67,12 +67,11 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestro 
 2. Ve hasta la página principal del repositorio recién creado.
 3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Codespaces, seleccione "Create codespace on main".
 
-
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
+    <img src="../../__images__/createcodespace.png" alt="Crea tu codespace" style="width:270px;"/>
     
 4. Espera mientras GitHub inicializa el Codespace.
 
-    <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
+    <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Iniciando el Codespace" style="width: 600px;"/>
     
 5. Cuando haya terminado, verás que tu Codespace comenzara con una sección de terminal en la parte inferior. Aquí verás `npm install` ejecutando. Después de que finalice npm, ve a la terminal donde puedes ejecutar la aplicación web con el siguiente comando: `npm run start` 
 
