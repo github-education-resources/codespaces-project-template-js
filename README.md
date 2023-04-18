@@ -81,8 +81,6 @@ Your development environment is all set for you to start. Based on our [JavaScri
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
    
-   > If you hover over "http://localhost:1234" in the terminal and select "Follow link", you can see your web application live as you make changes
-
 <br />
 
 ## ✨ Customize your site in 3 steps
