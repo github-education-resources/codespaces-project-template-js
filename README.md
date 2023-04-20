@@ -19,11 +19,11 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 ### Quick Start
 
-1. Click the **Use this Template** button
-2. Select the repository owner (e.g. your GitHub account)
-3. Enter a unique name for your new repository
-4. Click the **Code** button
-5. Click **Create Codespace on main** button
+1. Click the **Use this Template** button and then **Create a new repository**
+1. Select the repository owner (e.g. your GitHub account)
+1. Enter a unique name for your new repository
+1. Click the **Code** button
+1. Click **Create Codespace on main** button
 1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot 
 1. [Deploy your site](#-deploy-your-web-application)
 
@@ -55,7 +55,7 @@ The repo contains the following:
 
 This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
 
-Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what s already setup and ready for you to use:
+Your development environment is all set for you to start. Based on our [JavaScript Codespace Template (React)](https://github.com/microsoft/codespaces-teaching-template-js), here is what is already setup and ready for you to use:
 
 * Simple [React](https://reactjs.org/) application with components for each section of the portfolio site
 * [Parcel](https://parceljs.org/) in place to build your site when deploying
@@ -64,7 +64,7 @@ Your development environment is all set for you to start. Based on our [JavaScri
 ### Create your portfolio
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-project-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look on Make changes using Copilot 
+1. Before creating the Codespace, enable GitHub Copilot for your account. If it is not enabled, take a look at [Customize your portfolio site using Copilot](#-customize-your-site-in-3-steps).
 1. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
@@ -77,10 +77,10 @@ Your development environment is all set for you to start. Based on our [JavaScri
     
 5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codesaces will execute `npm start` to start your web application running within your Codespace. 
 
-   When the web application has successfully started you will see a message in Termin that the server is running on port 1234 within your Codespace:
+   When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
-
+   
 <br />
 
 ## ✨ Customize your site in 3 steps
@@ -91,9 +91,9 @@ For each step, open the project in Codespaces, then you can make and commit your
 
 > See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
-### 1️⃣ Add your "about me" and social accounts
+### 1️⃣ Add your "About me" and social accounts
 
-Within `App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email, and social accounts.
+Within `/src/App.jsx` you will see a variable called `siteProps`. This is a JavaScript object that hold the key value pairs needed to customize your name, title, email, and social accounts.
 
 ```javascript
 const siteProps = {
@@ -119,19 +119,19 @@ This portfolio site includes 3 images: top section background, "About me" backgr
 
 A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/images` with a short, meaningful file name.
 
-Go to the following components to update the `import image...` line to reference the new image you downloaded for that section, as well as the `imageAltText` for the image:
+Go to the following below components to update the `import image...` line to reference the new image you downloaded for that section, as well as the `imageAltText` for the image:
 
-* `Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
+* `/src/Components/Home.jsx` - section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
    ```javascript
       import image from "../images/server-wall.jpg";
       const imageAltText = "woman holding laptop standing by server room with glass wall";
    ```
-* `About.jsx` - background behind the detailed "about me" section (abstract mosaic in sample)
+* `/src/Components/About.jsx` - background behind the detailed "About me" section (abstract mosaic in sample)
    ```javascript
       import image from "../images/mosaic.svg";
       const imageAltText = "purple and blue abstract background";
    ```
-* `Portfolio.jsx`- image highted in left hand side of section (design desk photo in sample)
+* `/src/Components/Portfolio.jsx`- image highlighted in left hand side of section (design desk photo in sample)
    ```javascript
       import image from "../images/design-desk.jpeg";
       const imageAltText = "desktop with books and laptop";
@@ -139,15 +139,14 @@ Go to the following components to update the `import image...` line to reference
 
 ### 3️⃣ Add items you've worked on and detail text
 
-The about section helps to give people a bit more information about your skills and passions. Within `About.jsx` you will find 2 values to update:
+The About section helps to give people a bit more information about your skills and passions. Within `/src/Components/About.jsx` you will find 2 values to update:
 
-* `description`: short sentence or two describing yourself, career goal, and/or passions
-* `skillsList`: an [array](https://www.w3schools.com/js/js_arrays.asp) of your skills to list on the site, can be as many or little as you wish
+* `description`: short sentence or two describing yourself, career goals, and/or passions
 * `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
 
-The second section to update is portfolio, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+The second section to update is the Portfolio section, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
 
-Go to `Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
+Go to `/src/Components/Portfolio.jsx` to the `projectList` variable. This is a JavaScript array of objects. Each item you want to highlight needs: title, description, and URL.
 
 The sample design has 4, but the number you include is up to you.
 
@@ -196,14 +195,17 @@ With your project open in Codespaces:
 1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
 1. From Azure menu click “+” sign and then “Create Static Web App”.
 1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
-1. Set you application information when prompted:
+1. Set your application information when prompted:
     1. **Region**: pick the one closest to you
     1. **Project structure**: select "React"
     1. **Location of application code**: `/`
     1. **Build location**: `dist`
-1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running.
-
+1. When complete you will see a notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click “Open Action in GitHub” you will see the action that was created for you, and it is currently running.
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
+1. To view the status of your deployment, find your Static Web App resource in the Azure tab in the VS Code left side bar.
+1. Once deployment is complete, you can view your brand new new publicly accessible application by right clicking on your Static Web App resource and selecting "Browse Site".
+
+> **Issues?** When creating your Static Web app, if you are prompted to select an Azure subscription and are not able to select a subscription, check the "Accounts" tab in VS Code. Make sure to choose the "Grant access to ..." options if those options appear
 
 > 🤩 **Bonus**: [Setup a custom domain for your Azure Static Web App](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
 
