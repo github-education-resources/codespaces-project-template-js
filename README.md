@@ -2,6 +2,8 @@
 
 # JavaScript Portfolio Site with GitHub Codespaces and Copilot
 
+> View these instructions in [Spanish](/translations/es/README.md) or [Portuguese](/translations/pt-BR/README.md)
+
 _Create, customize and deploy your own portfolio website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster. 
@@ -13,7 +15,7 @@ In this template repository we have the development environment and base set and
 
 ## About this portfolio template
 
-In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.  
+In this "choose your own adventure" template portfolio, we have a [React](https://reactjs.org/) based web application ready for you to easily customize and deploy using only your web browser.
 
 ![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
 
