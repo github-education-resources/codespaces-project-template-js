@@ -17,7 +17,7 @@ const Header = () => {
         background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         top: 0,
-        width: "100vw",
+        width: "100%",
         zIndex: 10,
       }}
     >
