@@ -16,10 +16,12 @@ body {
 div#main {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 
 section {
   position: relative;
+  width: 100vw;
 }
 
 section.min-height {
@@ -53,9 +55,8 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 400;
-  font-weight: 600;
   margin: 0;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 h3 {
