@@ -376,7 +376,7 @@ For an example, let's add an education section to your portfolio site.
     
     const Education = () => {
         return(
-            <section className="light" id="portfolio">
+            <section className="light" id="education">
                 <h2>Education</h2>
             </section>
         )
