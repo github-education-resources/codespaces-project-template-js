@@ -2,7 +2,7 @@
 
 # Crie seu portifólio com JavaScript e GitHub Codespaces!
 
-_Crie, personalize e implemente seu propio portifólio web em minutos._  ✨
+_Crie, personalize e implemente seu próprio portifólio web em minutos._  ✨
 
 Neste repositório de templates temos o ambiente de desenvolvimento e a base definida e preparada para execução. Para que possa iniciar imediatamente o Codespaces e o personalizar sem complicações.
 
@@ -13,7 +13,7 @@ Neste repositório de templates temos o ambiente de desenvolvimento e a base def
 
 ## Sobre esse template de portifólio
 
-Neste template de portfólio poderá "escolher sua própria aventura", temos um aplicativo web baseado em [React](https://reactjs.org/) pronto para você personalizar e implantar facilmente usando apenas seu navegador web.
+Neste template de portfólio, você poderá "escolher sua própria aventura", temos um aplicativo web baseado em [React](https://reactjs.org/) pronto para você personalizar e implantar facilmente usando apenas seu navegador web.
 
 ![Aplicativo web JavaScript de perfil](/__images__/js-portfolio-site.gif "Aplicativo web JavaScript de perfil")
 
@@ -37,7 +37,7 @@ Neste template de portfólio poderá "escolher sua própria aventura", temos um 
 
 ## 🗃️ Seu Portifólio web com JavaScript
 
-Este repositorio é um template de GitHub para crirar uma aplicação web frontend de  portifólio com JavaScript utilizando React. **O objetivo é fornecer um modelo para que você possa usar imediatamente para criar seu próprio site através do Codespaces
+Este repositorio é um template do GitHub para crirar uma aplicação web frontend de um portifólio com JavaScript utilizando React. **O objetivo é fornecer um modelo para que você possa usar imediatamente para criar seu próprio site através do Codespaces
 
 O repositorio contém:
 
