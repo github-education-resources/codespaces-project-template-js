@@ -84,15 +84,15 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
 ## ✨ Personaliza tu página web en 3 pasos
 
-Este proyecto está diseñado para ser fácilmente personalizable. Cada sección del sitio es un componente separado, y su información debe establecerse en un solo lugar. Esto no es solo para facilitar la actualización, sino para que puedas ver cómo se pasan los Prop values a los componentes de React.
+Este proyecto está diseñado para ser fácilmente personalizable. Cada sección del sitio es un componente separado, y tu información debe establecerse en un solo lugar. Esto no es solo para facilitar la actualización, sino para que puedas ver cómo se pasan los Prop values a los componentes de React.
 
-**Para cada paso, abre el proyecto en Codespaces, luego puede realizar y confirmar sus cambios mientras está dentro de su Codespace.**
+**Para cada paso, abre el proyecto en Codespaces, luego puedes realizar y confirmar cambios mientras estás dentro de tu Codespace.**
 
 >  Consulta el [uso del control de código fuente en tu codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces.
 
-### 1️⃣ Agrega tu "sobre mí" y tus cuentas sociales
+### 1️⃣ Agrega tu "Sobre mí" y tus redes sociales
 
-Dentro de `App.jsx` verás una variable llamada `siteProps`. Este es un objeto JavaScript que contiene los pares de valores clave necesarios para personalizar tu nombre, título, correo electrónico y cuentas sociales.
+Dentro de `App.jsx` verás una variable llamada `siteProps`. Este es un objeto JavaScript que contiene los pares de valores clave necesarios para personalizar tu nombre, título, correo electrónico y cuentas de redes sociales.
 
 ```javascript
 const siteProps = {
@@ -110,21 +110,21 @@ const siteProps = {
 
 Actualiza el nombre y el título que quieras que aparezcan en la parte superior de tu sitio web.
 
-_Optional values_ son la dirección de correo electrónico y las cuentas sociales. Estos se utilizan en el componente 'Pie de página'. Si algún elemento no está incluido en la lista, o establecido en una cadena vacía (""), no mostrará el icono y el vínculo.
+_Optional values_ (valores opcionales) son la dirección de correo electrónico y redes sociales. Estos se utilizan en el componente 'Pie de página'. Si algún elemento no está incluido en la lista, o establecido en una cadena vacía (""), no mostrará el ícono y el vínculo.
 
 ### 2️⃣ Sube imagenes
 
-**Este sitio de portafolio incluye 3 imágenes**: un fondo para la sección superior, un fondo "Acerca de mí" y uno para la sección de portafolio (escritorio). Estas pueden ser cualquier imagen de tamaño **horizontal** de tu elección de tu propia colección, o que tenga una licencia que le permita usar sin atribución.
+**Este portafolio web incluye 3 imágenes**: un fondo para la sección superior, un fondo para la sección "Sobre mí" y uno para la sección de portafolio (escritorio). Estas pueden ser cualquier imagen de tamaño **horizontal** a tu elección de tu propia colección, o que tenga una licencia que le permita usar sin atribución.
 
-Un par de sitios posibles para encontrar fotos son</a> <a href="https://pixabay.com/" target="_blank">Pixabay y <a href="https://unsplash.com" target="_blank">Unsplash</a>. Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentre sus imágenes, guarda cada una en `/src/images` con un nombre de archivo corto y significativo.
+Un par de sitios posibles para encontrar fotos son [Pixabay](https://pixabay.com/) y [Unsplash](https://unsplash.com). Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentres tus imágenes, guarda cada una en `/src/images` con un nombre de archivo corto y significativo.
 
-Ve a los siguientes componentes para actualizar la línea `import image...` para hacer referencia a la nueva imagen que descargó para esa sección:
+Ve a los siguientes componentes para actualizar la línea `import image...` haciendo referencia a la nueva imagen que descargaste para esa sección:
 
 * `Home.jsx` - es la parte superior de la página, la imagen principal que verás cuando se cargue el sitio (mujer de pie junto a la pared del servidor en la muestra)
    ```javascript
       import image from "../images/server-wall.jpg";
    ```
-* `About.jsx` - background detrás de la sección detallada "Acerca de mí" (mosaico abstracto en la muestra)
+* `About.jsx` - fondo detrás de la sección detallada "Sobre mí" (mosaico abstracto en la muestra)
    ```javascript
       import image from "../images/mosaic.svg";
    ```
@@ -135,16 +135,21 @@ Ve a los siguientes componentes para actualizar la línea `import image...` para
 
 ### 3️⃣ Agrega proyectos en los que has trabajado
 
-Esta sección del portafolio es el área para resaltar los proyectos en los que has trabajado. Estos serían artículos, videos, diseños de logotipos, proyectos de GitHub, ¡cualquier cosa que te destaque!
+La sescción About ayuda a dar a las personas un poco más de información acerca de tus habilidades y pasiones. En `/src/Components/About.jsx` encontrarás dos valores a ser actualizados:
 
-En el `Portfolio.jsx` ve a la variable `projectList`. Esta es un array de objetos JavaScript. Cada elemento que desees resaltar necesita: título, descripción y URL.
+* `description`: una o dos oraciones cortas describiendote, tus metas en la carrera y/o pasiones.
+* `detailOrQuote`: un bloque más largo para añadir más detalles sobre tí, om si gustas, citar una frase que te guste.
 
-El diseño de muestra tiene 4, pero el número que incluya depende de usted.
+La segunda sección que deberás actualizar es la sección del Portafolio, donde resaltarás los proyectos que realizaste. Pueden ser artículos, videos. diseño de logos, poyectos de GitHub, ¡todo lo que te haga resaltar!
+
+Ve a `/src/Components/Portfolio.jsx` a la variable `projectList`. Este es un arreglo de objetos de JavaScript. Cada cosa que quieras resaltar necesita: título, descripción y una URL.
+
+Este ejemplo tiene 4, pero la cantidad que inlcuyas depende de tí
 
 ```javascript
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "10 Things to know about Azure Static Web Apps 🎉",
     description: "Collaboration to create a beginner friendly....",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
@@ -159,52 +164,60 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitHub Codespaces and GitHub.dev",
     description: "Video interview to explain when to use GitHub.dev...",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
 ```
 
+<br/>
+
 ## 🏃 Subir tu aplicación web
 
-El proyecto incluye la configuración necesaria para implementar **gratis** para <a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> y <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. 
+El proyecto incluye la configuración necesaria para implementar **gratis** para [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**o**_ [GitHub Pages](https://pages.github.com/)</a>. Las instrucciones para ambas se encuentran a continuación:
 
 ### Azure Static Web Apps
 
-<a href="https://azure.microsoft.com/en-in/products/app-service/static/" target="_blank">Azure Static Web Apps</a> es la solución de hospedaje de Microsoft para sitios estáticos (o sitios que se representan en el explorador del usuario, no en un servidor) a través de Azure. Este servicio ofrece oportunidades adicionales para expandir tu sitio a través de Azure Functions, autenticación, versiones provisionales y ¡mucho más!.
+[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) es la solución de hospedaje de Microsoft para sitios estáticos (o sitios que se representan en el buscador del usuario, no en un servidor) a través de Azure. Este servicio ofrece oportunidades adicionales para expandir tu sitio a través de Azure Functions, autenticación, versiones provisionales y ¡mucho más!.
 
-Necesitarás cuentas de Azure y GitHub para implementar la aplicación web. Si aún no tienes una cuenta de Azure, puedes crearla desde dentro durante el proceso de implementación o desde los siguientes vínculos:
+Necesitarás cuentas de Azure y GitHub para implementar la aplicación web. Si aún no tienes una cuenta de Azure, puedes crearla durante el proceso de implementación o desde los siguientes vínculos:
 
-* [Crear una cuenta de Azure para estudiantes (no se requiere tarjeta de crédito)](https://azure.microsoft.com/free/students/)
-* [Creación de una nueva cuenta de Azure](https://azure.microsoft.com/en-US/)
+* [Crea una cuenta de Azure para estudiantes (no necesitas tarjeta de crédito).](https://azure.microsoft.com/free/students/?WT.mc_id=academic-79839-sagibbon)
+* [Crea una nueva cuenta de Azure.](https://azure.microsoft.com/?WT.mc_id=academic-79839-sagibbon)
 
 Con tu proyecto abierto en Codespaces:
 
-1. Haz clic en el icono de Azure en la barra lateral izquierda. Inicie sesión si aún no lo has hecho y, si eres nuevo en Azure, sigue las indicaciones para crear su cuenta.
+1. Haz clic en el ícono de Azure en la barra lateral izquierda. Inicia sesión si aún no lo has hecho y, si eres nuevo en Azure, sigue las indicaciones para crear tu cuenta.
 1. En el menú Azure, haz clic en el signo "+" y, a continuación, en "Create Static Web App".
 1. Si no has iniciado sesión en GitHub, se te pedirá que inicies sesión. Si tienes algún cambio de archivo pendiente, se te pedirá que confirmes esos cambios.
 1. Ingresa la información de tu aplicación cuando se te solicite:
-    1. **Region**: Elige el más cercano a ti
-    1. **Estructura del proyecto**: selecciona "React"
+    1. **Región**: Elige el más cercano a donde te encuentres.
+    1. **Estructura del proyecto**: selecciona "React".
     1. **Ubicación del código de aplicación**: `/`
     1. **Ubicación de compliación**: `dist`
-1. Cuando hayas terminado, verás una notificación en la parte inferior de la pantalla y se agregará un workflow de GitHub Action a tu proyecto. Si hace clic en "Open Action in GitHub", verás la acción que se creó para ti y se está ejecutando actualmente.
+1. Cuando hayas terminado, verás una notificación en la parte inferior de la pantalla y se agregará un nuevo flujo de trabajo de GitHub Action a tu proyecto. Si haces click en "Open Action in GitHub" (Abrir accción en GitHub), verás la acción que se creó para tí y que se está ejecutando en el momento.
 
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
 
+1. Para ver el estado de tu despliegie, busca tu recurso de Static Web App en la pestaña de Azure en la barra izquierda de VS Code.
+1. Una vez el despliegue fue completado, podrás ver tu aplicación de marca nueva accesible haciendo click derecho en tu recurso de Static Web App y seleccionando "Browse Site" (Navegar por el sitio).
+
+> **¿Problemas?** Cuando creas tu Static Web App, si tu propósito es seleccionar una suscripción de Azure y no puedes hacerlo, revisa la pestaña "Accounts" (Cuentas) en VS Code. Asegúrate de escoger las opciones "Permitir acceso a..." si es que aparecen. En caso de recibir el mensaje "RepositoryToken is invalid. ..." (El token del repositorio es inválido...), cambia al Visual Studio Code para web (vscode.dev) y repite los pasos.
+
+> 🤩 **Bonus**: [Establece un dominio personalizado para tu Azure Static Web App](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
 
 ### GitHub Pages
 
-<a href="https://pages.github.com/" target="_blank">GitHub Pages</a> te permite alojar sitios web directamente desde tu repositorio de GitHub. Este proyecto ya está configurado para que puedas subir tu portafolio en GitHub Pages con muy pocos pasos.
+[GitHub Pages](https://pages.github.com/) te permite alojar sitios web directamente desde tu repositorio de GitHub. Este proyecto ya está configurado para que puedas subir tu portafolio en GitHub Pages con muy pocos pasos.
 
 Con tu proyecto abierto en Codespaces:
 
 1. Abre `package.json` y actualiza los siguientes valores: 
-    1. **homepage**: establezca en  `http://{github-username}.github.io/{repo-name}`, donde `github-username` es tu nombre de usuario de GitHub y `repo-name` es el nombre que llamó a este repositorio de tu portafolio cuando lo creaste.
-    1. **build-gh**: reemplace  `github-username` con tu nombre de usuario de GitHub y `repo-name` con el nombre del repositorio
-1. Confirma y envía esos cambios a `package.json` a tu repositorio remoto de GitHub.
-1.  Abre un nuevo terminal desde el menú o presionando `crtl` + `shift` + ` (o abra el menú superior izquierdo, seleccione "Terminal" y "Nuevo terminal")`
+    1. **homepage**: establezca en  `http://{github-username}.github.io/{repo-name}`, donde `github-username` es tu nombre de usuario de GitHub y `repo-name` es el nombre que de este repositorio de tu portafolio cuando lo creaste.
+    1. **build-gh**: reemplaza  `github-username` con tu nombre de usuario de GitHub y `repo-name` con el nombre del repositorio.
+1. Confirma y envía esos cambios a `package.json` en tu repositorio remoto de GitHub.
+1.  Abre un nuevo terminal desde el menú o presionando `crtl` + `shift` (o abra el menú superior izquierdo, seleccione "Terminal" y "Nuevo terminal")`
 1. Dentro de la ventana de terminal, ejecuta el siguiente comando: `npm run deploy`. Esto primero ejecutará el script previo a la implementación para compilar el proyecto, seguido del script de implementación que enviará esos archivos empaquetados a una nueva rama en su repositorio (gh-pages) que se usará para tu sitio de GitHub Pages.
 1. Cuando hayas terminado, dentro de tu repositorio, ve a Settings and Pages. Allí verás que se ha configurado una página para usted en la rama gh-pages, y deberías ver la url (que debe coincidir con el valor de "página de inicio" que estableció en package.json)
 
@@ -212,14 +225,24 @@ Con tu proyecto abierto en Codespaces:
 
 <br />
 
-## 🏆 Retos
+> 🤩 **Bonus**: [Establece un dominio para tu sitio en GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+
+<br />
+
+## 🏆 Personalizando con Copilot
 
 A continuación, se presentan 4 formas adicionales en que puede continuar personalizando el sitio de tu portafolio y aprender algunos Codespaces, CSS, HTML y JavaScript en el camino.
 
   1. [Personaliza tu Codespace](#1-personaliza-tu-codespace)
-  1. [Actualiza a smooth scroll para desplazarte a una sección](#2-actualiza-a-smooth-scroll-para-desplazarte-a-una-sección)
+  1. [Actualiza a smooth scroll para desplazarte a una sección](#2-actualiza-un-smooth-scroll-para-desplazarte-a-una-sección)
   1. [Anima tu fondo](#3-anima-tu-fondo)
   1. [Añade una nueva sección](#4-agrega-una-nueva-sección)
+
+> 👋 Obteniendo el acceso a Copilot
+>
+> Si aún no tienes Copilot, puedes [pedirlo aquí](https://github.com/login?return_to=%2fgithub-copilot%2fsignup). Si eres estudiante, puedes obtener acceso de forma **GRATUITA** [siguiendo estas instrucciones:](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-setting-up-github-student-and-github-copilot-as-an/ba-p/3736279?WT.mc_id=academic-0000-sagibbon).
+>
+>Para asegurarse que Copilot está funcionando correctamente, navega gasta la pestaña de extensión de tu Codespace y fíjate el estado de la extensión de Copilot. Si el estado es inactivo, vuelve a crear el Codespace y habilita la extensión para asegurarte de que esté activada.
 
 ### 1. Personaliza tu Codespace
 
@@ -242,12 +265,17 @@ Tu entorno viene con extensiones preinstaladas. Puedes cambiar con qué extensio
    "oderwat.indent-rainbow"
    ```
   
-   Lo que hiciste anteriormente fue agregar el identificador único de una extensión del <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>. Esto permitirá que Codespaces sepa que esta extensión debe estar preinstalada al inicio.
+   Lo que hiciste anteriormente fue agregar el identificador único de la extensión [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79839-sagibbon). Esto permitirá que Codespaces sepa que esta extensión debe estar preinstalada al inicio.
 
 Para encontrar el identificador único de una extensión:
 
-* Navegue a la página web de la extensión: <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow</a>
-* Localiza el campo _Unique Identifier_ en la sección **More info** a tu derecha.
+* Navegue a la página web de la extensión: <a [marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79839-sagibbon)
+* Localiza el campo _Unique Identifier_ en la sección **More info** a tu derecha.* 
+-------
+⭐ COPILOT BONUS ⭐ 
+
+
+En `devcontainer.json`, go to the following line in the `settings` values: `"emmet.triggerExpansionOnTab": true`. Add a comma at the end of the line and press enter. See what other settings Copilot recommeneds and if they'd help you in your Codespace. 
    
 > 💡 Obtenga más información aquí, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
