@@ -234,7 +234,7 @@ Con tu proyecto abierto en Codespaces:
 A continuación, se presentan 4 formas adicionales en que puede continuar personalizando el sitio de tu portafolio y aprender algunos Codespaces, CSS, HTML y JavaScript en el camino.
 
   1. [Personaliza tu Codespace](#1-personaliza-tu-codespace)
-  1. [Actualiza a smooth scroll para desplazarte a una sección](#2-actualiza-un-smooth-scroll-para-desplazarte-a-una-sección)
+  1. [Actualiza a smooth scroll para desplazarte a una sección](#2-Añade-un-desplazamiento-suave-entre-secciones)
   1. [Anima tu fondo](#3-anima-tu-fondo)
   1. [Añade una nueva sección](#4-agrega-una-nueva-sección)
 
@@ -275,35 +275,41 @@ Para encontrar el identificador único de una extensión:
 ⭐ COPILOT BONUS ⭐ 
 
 
-En `devcontainer.json`, go to the following line in the `settings` values: `"emmet.triggerExpansionOnTab": true`. Add a comma at the end of the line and press enter. See what other settings Copilot recommeneds and if they'd help you in your Codespace. 
+En `devcontainer.json`, ve a la siguiente línea en los valores de `settings`: `"emmet.triggerExpansionOnTab": true`. Añade una coma al final de la línea y presiona enter. Revisa que otra configuración recomienda Copilot y si estas te ayudarán en tu Codespace. 
    
-> 💡 Obtenga más información aquí, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+> 💡 Aprende más sobre [Personalizar tu GitHub Codespace](https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account).
 
 
-### 2. Actualiza a smooth scroll para desplazarte a una sección
+### 2. Añade un desplazamiento suave entre secciones
 
-En el encabezado de tu sitio tiene enlaces a cada sección a continuación. Haz clic en uno de estos enlaces y observe cómo se desplaza por la página hasta esa sección. No es realmente un scroll, ¿verdad?
+En el encabezado de tu sitio tienes enlaces a cada siguiente sección. Haz clic en uno de estos enlaces y observa cómo se desplaza por la página hasta esa sección. No es realmente un desplazamiento, ¿verdad?
 
-Hagamos de esta una mejor experiencia de usuario ralentizando eso para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. 
+Hagamos de esta una mejor experiencia de usuario relentizando eso para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. 
 
-1. Abre `styles.css`, que es la hoja de estilo para tu portafolio. Necesitamos agregar un estilo para `html`. Si te fijas, verás que ahora mismo los estilos `html` y `body` se están configurando juntos, así que agreguemos el siguiente fragmento de CSS para establecer el desplazamiento del elemento `html`:
+1. Abre `styles.css`, que es la hoja de estilo para tu portafolio. Necesitamos agregar un estilo para `html`. Si te fijas, verás que ahora mismo los estilos `html` y `body` se están configurando juntos, sin un estilo definido para `scroll-behavior`. Vamos a darle a Copilot una instrucción para que lo añada por nosotros:
 
-
+1. Copilot sugerirá a CSS lo siguiente:
     ```css
     html {
       scroll-behavior: smooth;
     }
     ```
+1. Presiona la tecla tab para aceptar esta sugerencia. (_Nota: Si no ves exactamente esta sugerencia de Copilot, continua escribiendo la instrucción hasta que la sugerencia aparezca._)
 
-Tu sitio ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Haz clic en un enlace en el encabezado superior para ver el desplazamiento suave en acción.
+Tu sitio ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Haz click en un link en el encabezado superior para ver el desplazamiento suave en acción.
 
 
 ### 3. Anima tu fondo
 
-Las animaciones son una forma de agregar fácilmente algo de movimiento a los elementos de tu página para aumentar la interactividad del usuario y resaltar los elementos que deseas que noten. Vamos a animar la foto de escritorio en la sección de portafolio. 
+Las animaciones son una forma de agregar fácilmente algo de movimiento a los elementos de tu página para aumentar la interactividad del usuario y resaltar los elementos que deseas que se noten. Vamos a animar la foto de escritorio en la sección de portafolio. 
 
-1. Abre la hoja de estilos de tu sitio, `styles.css` dentro de tu Codespace. Añade la secuencia de animación agregando una definición `@keyframes` para deslizar desde la izquierda:
+1. Abre la hoja de estilos de tu sitio, `styles.css` dentro de tu Codespace. Usando Copilot, en el final de tu `styles.css` cita a Copilot con el siguiente comentario:
 
+    ```css
+    /* add a slide in animation */
+    ```
+    
+    Esto debería sugerirte la siguiente secuencia animada. Presiona la tecla tab para aceptarla o continúa escribiendo hasta que Copilot complete la sugerencia, y ya tendrás una animación lista para usar.
     ```css
     @keyframes slideInLeft {
       0% {
@@ -313,39 +319,54 @@ Las animaciones son una forma de agregar fácilmente algo de movimiento a los el
         transform: translateX(0);
       }
     }
-    ``` 
-1. Ahora que hemos definido nuestra secuencia de animación `slideInLeft`, podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abre `Portfolio.jsx` y busca la etiqueta `img`. Verás que utiliza inline CSS para establecer su estilo. Dentro de su definición de estilo, agrega lo siguiente:
+    ```
+1. Ahora que hemos definido nuestra secuencia de animación `slideIn`, podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abre `Portfolio.jsx` y busca la etiqueta `img`. Verás que utiliza inline CSS para establecer su estilo. Dentro de su definición de estilo, agrega lo siguiente:
 
     ```css
     animation: "1s ease-out 0s 1 slideInLeft";
     ```
 
-    Your image tag should look something like:
+    Tu etiqueta se debería ver similar a esto:
     ```html
     <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
     ```
 
 Tu sitio web ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Desplázate hacia arriba y hacia abajo en la página y observa cómo la foto de tu escritorio se desliza sobre la página.
 
-> 🤩 **Extra**: Anima la flecha hacia abajo
+-------
+⭐ COPILOT BONUS ⭐ 
 
+Usa Copilot para animar la flecha de desplazarse hacia abajo en tu componente `Home` para rebotar de arriba a abajo en tu página. 
 
+_Ayuda_: Entu archivo `styles.css`, usa comentarios para decirle a Copilot lo que quieres que haga. Revisa lo que te sugiere, complementa tus instrucciones, y fijate como te guía en conseguir crear tu flecha para rebotar. 
+
+-------
+
+<br/>
 ### 4. Agrega una nueva sección
 
-Comenzamos con algunas secciones básicas para tu portafolio web, pero tienes libertad creativa para hacerlo tuyo y agregar nuevas secciones relevantes para lo que deseas en tu sitio web. 
+Comenzamos con algunas secciones básicas para tu portafolio web, pero tienes libertad creativa para hacerlo tuyo y agregar nuevas secciones relevantes para lo que deseas en tu página. 
 
-Por ejemplo, agreguemos una sección de educación a su sitio de portafolio.
+Por ejemplo, agreguemos una sección de educación a tu portafolio.
 
 1. Crea un nuevo componente para la sección dentro de la carpeta `Components`. Agrega un nuevo archivo llamado `Education.jsx`.
 
-2. En `Education.jsx` agrega la función de componente, exportación e información que deseas incluir:
+1. Hagamos que Copilot nos ayude a comenzar. En lugar de darle instrucciones con un comentario, comencemos tu archivo `Education.jsx` con:
+    ```javascript
+    import React from "react";
+    ```
 
+    Mientras comiences a escribir, este tomará lo que haces y te ofrecerá un autocompletado para esa línea.
+
+1. Presiona `enter` luego de la línea de importación para que Copilot sugiera el código para crear tu componente `Education` . Presiona `tab` para aceptar la solución o `crtl` + `enter` para ver todas las sugerencias de Copilot y seleccionar la que mejor funcione para tí. 
+
+    Minimamente, necesitarás un `const` definido en el componente `Education` exportado (un ejemplo abajo). El resto depende de tí. Experimenta con Copilot, enlazandolo con lo que tu desees construir. 
     ```javascript
     import React from "react";
     
     const Education = () => {
         return(
-            <section className="light" id="portfolio">
+            <section className="light" id="education">
                 <h2>Education</h2>
             </section>
         )
@@ -353,23 +374,38 @@ Por ejemplo, agreguemos una sección de educación a su sitio de portafolio.
     
     export default Education;
     ```
-3. En `App.jsx`, importa tu nuevo componente `Education` en la parte superior agregando lo siguiente:
+3. En `App.jsx`, importa tu nuevo componente `Education` en la parte superior y observa que Copilot empieza a ver que estás haciendo y dando sugerencias de autocompletado:
+   
     ```javascript
     import Footer from "./Components/Footer";
     ```
-4. Ahora agrega el componente `Education` donde deseas que se encuentre dentro de la página al insertar:
+4. Ahora agrega el componente `Education` donde deseas que se encuentre dentro de la página. Observa que Copilot sabe que deseas añadir en el componente `Education`. Este debería sugerir lo siguiente que podrás aceptar y se añadirá en tu nuevo componente:
     ```javascript
     <Education />
     ``` 
 
-En su Codespace, tu aplicación con tu portafolio debe estar ejecutándose y volverá a cargar tu sitio web con los cambios.
+En tu Codespace, tu aplicación con tu portafolio debe estar ejecutándose y volverá a cargar tu sitio web con los cambios.
+
+-------
+⭐ COPILOT BONUS ⭐ 
+
+Ahora que estás familiarizado en que Copilot puede no solamente escribir código rápido, pero te da unas sugerencias para ahorrar tiempo buscando soluciones.
+
+Revisa como puedes usar Copilot para ayudarte:
+* añade Education en la parte superior de tu navegación.
+* añade detalles de educación con una instrucción  (_Ayuda_: añade el comentario "grid of 4 education cells" (grilla de 4 celdas para educación)) 
+-------
 
 <br />
 
 ## 📚 Recursos
 
-* [Descripción general de los documentos de GitHub Codespaces](https://docs.github.com/codespaces/overview)
-* [Usa los contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+* [Documentación de GitHub Codespaces](https://docs.github.com/codespaces/overview)
+* [Guía de GitHub Codespaces](https://docs.github.com/en/codespaces/guides)
+* [Documentación de GitHub Copilot](https://docs.github.com/en/copilot)
+* [Usa contenedores de desarrollo con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+* [Desarrollo web para principiantes](https://github.com/microsoft/Web-Dev-For-Beginners)
+* [Comienza con React](https://learn.microsoft.com/en-us/training/modules/react-get-started/?WT.mc_id=academic-79839-sagibbon)
 
 > #### Aplicación de navegador Codespaces
 >
@@ -380,4 +416,4 @@ En su Codespace, tu aplicación con tu portafolio debe estar ejecutándose y vol
 <br />
 
 ## 🔎 ¿Encontraste un problema o tienes una idea para mejorar?
-Ayúdanos a mejorar este repositorio al [¡avisarnos y abriendo un problema!](/../../issues/new).
+Ayúdanos a mejorar este repositorio al [¡Déjanos saber abriendo un issue!](/../../issues/new).
