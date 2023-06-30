@@ -1,13 +1,13 @@
 [![Abre en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# ¡Tu propio portafolio con JavaScript y GitHub Codespaces!
+# ¡Crea tu portafolio web usando Javascript, GitHub Codespaces y Copilot!
 
 _Crea, personaliza e implementa tu propio portafolio web en minutos._  ✨
 
-En esta plantilla tenemos el entorno de desarrollo, la base establecida y lista para funcionar. Para que puedas iniciar inmediatamente Codespaces y personalizarlo sin configuración.
+En esta plantilla tenemos el entorno de desarrollo y una base predeterminada lista para usar. Con todo ello ya podrás iniciar inmediatamente tu entorno de [Codespace](https://github.com/features/codespaces/ y personalizar tu página web usando [Copilot](https://copilot.github.com) para que puedas escribir código de forma más rápida. 
 
-* **¿Para quién es esto?** __Para cualquier persona__ esté este buscando crear su portafolio web, desee aprender sobre desarrollo web o probar Codespaces.
-* **¿Cuánta experiencia necesitas?** __Cero experiencia__. Tú decides cuánto deseas personalizar basado en tu experiencia y tiempo disponible. 
+* **¿Para quién es esto?** __Para cualquier persona__ que este buscando crear su portafolio web, desee aprender sobre desarrollo web o probar Codespaces.
+* **¿Qué experiencia necesitas?** __Cero experiencia__. Tú decides cuánto deseas personalizar basado en tu experiencia y tiempo disponible. 
 * **Herramientas necesarias:** _Ninguna_. ¡No es necesario instalar nada! Todo lo que necesita es un navegador web.
 * **Prerrequisitos:** _Ninguno_. Esta plantilla incluye el entorno de desarrollo y la aplicación web implementable para que puedas crear tu sitio web.
 
@@ -17,27 +17,27 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 
 ![Aplicación web de perfil JavaScript](/__images__/js-portfolio-site.gif "Aplicación web de perfil JavaScript")
 
-### Inicia rápido
+### Inicio rápido
 
-1. Haz clic en el botón **Use this Template**
-2. Selecciona el propietario del repositorio (por ejemplo, su cuenta de GitHub)
-3. Introduzca un nombre único para el nuevo repositorio
-4. Haz clic en el botón **Código**
-5. Haz clic en el botón **Crear codespace en el botón principal**
+1. Haz clic en el botón **Use this Template** o **Usar esta plantilla** y luego en el botón **Create a new repository** o **Crear un nuevo repositorio**
+2. Selecciona al propietario del repositorio (por ejemplo, tu cuenta de GitHub).
+3. Introduzca un nombre único para el nuevo repositorio.
+4. Haz clic en el botón **Code** o **Código**
+5. Haz clic en el botón **Crear codespace en el botón principal** o **Create Codespace on main**.
 1. [Personaliza el sitio de tu portafolio](#personaliza-tu-pagina-web-en-3-pasos)
 1. [Sube tu Portafolio a la nube](#subir-tu-aplicacion-web)
 
 <details>
-   <summary><b>🎥 Para obtener más información sobre Codespaces, ve nuestra serie de tutoriales en video</b></summary>
+   <summary><b>🎥 Para aprender más sobre Codespaces, ve nuestra serie de tutoriales grabados.</b></summary>
    
    [![Tutorial de Codespaces](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
 <br />
 
-## 🗃️ Tu Portafolio web con JavaScript
+## 🗃️ Plantilla del Portafolio en JavaScript
 
-Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal JavaScript utilizando el framework React. **El objetivo es darte una plantilla que puedas utilizarla inmediatamente para crear tu propia página web a través de Codespaces.**
+Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal utilizando el framework React. **El objetivo es darte una plantilla que puedas utilizarla inmediatamente para crear tu propia página web a través de Codespaces.**
 
 El repositorio contiene lo siguiente:
 
@@ -45,9 +45,9 @@ El repositorio contiene lo siguiente:
   - `.devcontainer/Dockerfile`: Archivo de configuración utilizado por Codespaces para determinar el sistema operativo y otros detalles.
   - `.devcontainer/devcontainer.json`: Archivo de configuración utilizado por Codespaces para configurar las opciones de Visual Studio Code, como la habilitación de extensiones adicionales.
 * `/src`: Archivos HTML, JS y CSS utilizados para construir tu Portafolio web.
-* `.eslintrc`: Configuración de <a href="https://eslint.org/" target="_blank">ESLint</a> que se incluye para la coherencia y la calidad del código.
-* `.prettierrc`: Configuración de <a href="https://prettier.io/" target="_blank">Pretttier</a> que se utiliza para dar formato al código.
-* `package.json` y `package-lock.json`: Define la información del proyecto para <a href="https://nodejs.org/" target="_blank">Node.js</a>, los paquetes dependientes y las versiones necesarias de cada uno.
+* `.eslintrc`: Configuración de [ESLint](https://eslint.org/)</a> que se incluye para la coherencia y la calidad del código.
+* `.prettierrc`: Configuración de [Prettier](https://prettier.io/) que se utiliza para dar formato al código.
+* `package.json` y `package-lock.json`: Define la información del proyecto para [Node.js](https://nodejs.org/), los paquetes dependientes y las versiones necesarias de cada uno.
 
 <br />
 
@@ -55,29 +55,30 @@ El repositorio contiene lo siguiente:
 
 Este portafolio web está lleno de datos de ejemplo para que puedas abrirlo inmediatamente en Codespaces, verlo en ejecución y subirlo a la nube en cualquier momento.
 
-Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestro [Plantilla de JavaScript (React) con Codespace](https://github.com/microsoft/codespaces-teaching-template-js), esto es lo que ya está configurado y listo para su uso:
+Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra [Plantilla de JavaScript (React) con Codespace](https://github.com/microsoft/codespaces-teaching-template-js), esto es lo que ya está configurado y listo para su uso:
 
-* Una aplicación simple <a href="https://reactjs.org/" target="_blank">en React</a> con componentes para cada sección del Portafolio web
-* <a href="https://parceljs.org/" target="_blank">Parcel</a> para crear tu página web cuando la subas a la nube. 
-* Subrayado y formateado de Codigo utilizando <a href="https://eslint.org/" target="_blank">ESLint</a> y <a href="https://prettier.io/" target="_blank">Prettier</a> para consistencia en el codigo.
+* Una aplicación simple de [React](https://reactjs.org/) con componentes para cada sección del Portafolio web
+* [Parcel](https://parceljs.org/)  para crear tu página web cuando la subas a la nube. 
+* Subrayado y formateado de Codigo utilizando  [ESLint](https://eslint.org/) y [Prettier](https://prettier.io/) para consistencia en el codigo.
 
 ### Crea tu Portafolio
 
-1. Crea un repositorio a partir de esta plantilla. Usa este [link para crear el repositorio](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecciona el propietario del repositorio, proporciona un nombre, una descripción si lo deseas y selecciona si tu nuevo repositorio sea público o privado.
-2. Ve hasta la página principal del repositorio recién creado.
-3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Codespaces, seleccione "Create codespace on main".
+1. Crea un repositorio a partir de esta plantilla. Usa este [link para crear el repositorio](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecciona el propietario del repositorio, proporciona un nombre, una descripción si lo deseas y selecciona si tu nuevo repositorio será público o privado.
+2.Antes de crear el Codespace, habilita GitHub Copilot para tu cuenta. Si no está habilitado, dale una mirada a [Personaliza tu Portafolio web usando Copilot](#-customize-your-site-in-3-steps).
+3. Dirigete a la página principal del repositorio creado.
+3. Debajo del nombre del repositorio, usa el menú desplegable del Código y, en la pestaña de Codespaces selecciona "Create codespace on main".
 
-    <img src="../../__images__/createcodespace.png" alt="Crea tu codespace" style="width:270px;"/>
+    <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
     
 4. Espera mientras GitHub inicializa el Codespace.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Iniciando el Codespace" style="width: 600px;"/>
     
-5. Cuando haya terminado, verás que tu Codespace comenzara con una sección de terminal en la parte inferior. Aquí verás `npm install` ejecutando. Después de que finalice npm, ve a la terminal donde puedes ejecutar la aplicación web con el siguiente comando: `npm run start` 
+5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás `npm install` ejecutando. Después de que se complete la instalación de paquetes, Codespaces ejecutará  `npm run start` para iniciar tu aplicación web ejecutandose dentro de tu Codespace.
 
-   Cuando se inicie la aplicación web, verás un mensaje que te indicará que se inició correctamente en el puerto 1234, y puedes abrir ese sitio dentro de su navegador:
+   Cuando se inicie la aplicación web, verás un mensaje que te indicará que se inició correctamente en el puerto 1234 dentro de tu Codespace:
 
-   <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Aplicación web iniciada en puerto 1234" style="width: 340px;"/>
+   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
 
 <br />
 
