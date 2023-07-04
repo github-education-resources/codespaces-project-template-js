@@ -376,19 +376,19 @@ Por exemplo, vamos adicionar uma seção de educação ao site do seu portfólio
 
   No mínimo, você precisa de um `const` definido e o componente `Education` exportado (exemplo abaixo). O resto é com você. Experimente o Copilot, ajustando-o junto com o que você gostaria que ele construísse.
 
-      ```javascript
-    import React from "react";
-    
-    const Education = () => {
-        return(
-            <section className="light" id="education">
-                <h2>Education</h2>
-            </section>
-        )
-    }
-    
-    export default Education;
-    ```
+   ```javascript
+   import React from "react";
+   
+   const Education = () => {
+       return(
+           <section className="light" id="education">
+               <h2>Education</h2>
+           </section>
+       )
+   }
+   
+   export default Education;
+   ```
 
 4. Em `App.jsx`, importe seu novo componente `Education` na parte superior adicionando o seguinte e observe como o Copilot começa a ver o que você está fazendo e a fornecer sugestões de preenchimento automático:
     ```javascript
