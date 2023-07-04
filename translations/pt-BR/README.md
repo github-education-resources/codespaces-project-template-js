@@ -24,8 +24,8 @@ Neste template de portfólio, você poderá "escolher sua própria aventura", te
 3. Digite um nome único para o novo repositório
 4. Clique no botão **Code**
 5. Clique no botão **Criar codespace na main**
-6. [Personalize seu site de portfólio](#personalize-seu-site-em-3-passos)
-7. [Faça deploy (publicação) na nuvem](#faca-deploy-na-nuvem)
+6. [Personalize seu site de portfólio](#-personalize-seu-site-em-3-passos)
+7. [Faça deploy (publicação) na nuvem](#-faça-deploy-publicação-na-nuvem)
 
 <details>
    <summary><b>🎥 Para saber mais sobre codespaces, assista à nossa série de tutoriais</b></summary>
@@ -237,10 +237,10 @@ Com seu projeto aberto em Codespaces:
 
 Abaixo estão 4 maneiras adicionais para você continuar personalizando seu site de portfólio e Codespace. Mostraremos como usar o Copilot para fazer sugestões de código para um desenvolvimento mais rápido e ajudá-lo a aprender mais HTML, CSS e JavaScript ao longo do caminho.
 
-  1. [Personalizar seu Codespace](#1-personalize-seu-codespace)
-  2. [Atualizar a navegação entre seções com smooth scroll](#2-atualize-para-ter-smooth-scroll-navegando-a-uma-seção)
-  3. [Animar a imagem fundo](#3-anime-o-fundo)
-  4. [Adicionar uma nova seção](#4-adicione-uma-nova-seção)
+  1. [Personalizar seu Codespace](#1-personalizar-seu-codespace)
+  2. [Atualizar a navegação entre seções com smooth scroll](#2-atualizar-a-navegação-entre-seções-com-smooth-scroll)
+  3. [Animar a imagem fundo](#3-animar-a-imagem-fundo)
+  4. [Adicionar uma nova seção](#4-adicionar-uma-nova-seção)
 
 > 👋 Obtendo acesso ao GitHub Copilot
 >
