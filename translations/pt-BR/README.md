@@ -63,21 +63,22 @@ Seu ambiente de desenvolvimento está pronto para que você possa começar. Com 
 
 ### Cria seu Portfólio
 
-1. Crie um repositório a partir deste modelo. Use este [link para criar o repositório](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecione o proprietário do repositório, forneça um nome, descrição, se desejar, e selecione se seu novo repositório é público ou privado.
-2. Vá para a página principal do repositório recém-criado.
-3. De acordo com o nome do repositório, use o menu em "Code" e, na guia Codespaces, selecione "Create codespace on main".
+1. Crie um repositório a partir deste modelo. Use este [link para criar o repositório](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecione o proprietário do repositório, defina um nome, descrição, se desejar, e selecione se seu novo repositório é público ou privado.
+2. Antes de criar o Codespace, habilite o GitHub Copilot para sua conta. Se não estiver habilitado, dê uma olhada em Personalize seu site de portfólio usando o Copilot.
+3. Vá para a página principal do repositório recém-criado.
+4. De acordo com o nome do repositório, use o menu em "Code" e, na guia Codespaces, selecione "Create codespace on main".
 
     <img src="../../__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
 
-4. Espere enquanto o GitHub inicializa o Codespace.
+5. Espere enquanto o GitHub inicializa o Codespace.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
     
-5. Quando terminar, verá seu Codespace começar com uma seção terminal na parte inferior. Aqui você verá `npm install` em execução. Após o término do NPM, vá para o terminal onde você pode executar o aplicativo web com o seguinte comandondo: `npm run start` 
+6. Quando terminar, verá seu Codespace começar com uma seção terminal na parte inferior. Aqui você verá `npm install` em execução. Após o término do NPM, vá para o terminal onde você pode executar o aplicativo web com o seguinte comandondo: `npm run start` 
 
    Quando o aplicativo da Web for iniciado, você verá uma mensagem dizendo que ela começou com sucesso na porta 1234, e você pode abrir esse site dentro do seu navegador:
   
-   <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Aplicación web iniciada en puerto 1234" style="width: 340px;"/>
+   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Aplicativo da Web iniciado na porta 1234" style="width: 340px;"/>
 
 <br />
 
