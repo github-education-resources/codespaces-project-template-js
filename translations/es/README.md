@@ -180,7 +180,7 @@ El proyecto incluye la configuración necesaria para implementar **gratis** en [
 
 ### Azure Static Web Apps
 
-[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) es la solución de hospedaje de Microsoft para sitios estáticos (o sitios que se representan en el buscador del usuario, no en un servidor) a través de Azure. Este servicio ofrece oportunidades adicionales para expandir tu sitio a través de Azure Functions, autenticación, versiones provisionales y ¡mucho más!.
+[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) es la solución de hospedaje de Microsoft para sitios estáticos (o sitios que se representan en el navegador del usuario, no en un servidor) a través de Azure. Este servicio ofrece oportunidades adicionales para expandir tu sitio a través de Azure Functions, autenticación, versiones provisionales y ¡mucho más!.
 
 Necesitarás cuentas de Azure y GitHub para implementar la aplicación web. Si aún no tienes una cuenta de Azure, puedes crearla durante el proceso de implementación o desde los siguientes vínculos:
 
