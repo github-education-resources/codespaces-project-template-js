@@ -215,7 +215,7 @@ Con tu proyecto abierto en Codespaces:
 Con tu proyecto abierto en Codespaces:
 
 1. Abre `package.json` y actualiza los siguientes valores: 
-    1. **homepage**: establezca en  `http://{github-username}.github.io/{repo-name}`, donde `github-username` es tu nombre de usuario de GitHub y `repo-name` es el nombre que de este repositorio de tu portafolio cuando lo creaste.
+    1. **homepage**: establezca en  `http://{github-username}.github.io/{repo-name}`, donde `github-username` es tu nombre de usuario de GitHub y `repo-name` es el nombre que del repositorio donde se encuentra tu portafolio.
     1. **build-gh**: reemplaza  `github-username` con tu nombre de usuario de GitHub y `repo-name` con el nombre del repositorio.
 1. Confirma y envía esos cambios a `package.json` en tu repositorio remoto de GitHub.
 1.  Abre un nuevo terminal desde el menú o presionando `crtl` + `shift` (o abra el menú superior izquierdo, seleccione "Terminal" y "Nuevo terminal")`
