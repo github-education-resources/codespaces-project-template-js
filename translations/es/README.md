@@ -204,7 +204,7 @@ Con tu proyecto abierto en Codespaces:
 1. Para ver el estado de tu despliegue, busca tu recurso de Static Web App en la pestaña de Azure en la barra izquierda de VS Code.
 1. Una vez que el despliegue haya sido completado, podrás ver tu aplicación nueva al hacer click derecho en tu recurso de Static Web App y seleccionando "Browse Site" (Navegar por el sitio).
 
-> **¿Problemas?** Cuando creas tu Static Web App, si tu propósito es seleccionar una suscripción de Azure y no puedes hacerlo, revisa la pestaña "Accounts" (Cuentas) en VS Code. Asegúrate de escoger las opciones "Permitir acceso a..." si es que aparecen. En caso de recibir el mensaje "RepositoryToken is invalid. ..." (El token del repositorio es inválido...), cambia al Visual Studio Code para web (vscode.dev) y repite los pasos.
+> **¿Problemas?** Cuando creas tu Static Web App, si te piden seleccionar una suscripción de Azure y no puedes hacerlo, revisa la pestaña "Accounts" (Cuentas) en VS Code. Asegúrate de escoger las opciones "Permitir acceso a..." si es que aparecen. En caso de recibir el mensaje "RepositoryToken is invalid. ..." (El token del repositorio es inválido...), cambia al Visual Studio Code para web (vscode.dev) y repite los pasos.
 
 > 🤩 **Bonus**: [Establece un dominio personalizado para tu Azure Static Web App](https://learn.microsoft.com/en-us/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=academic-79839-sagibbon)
 
