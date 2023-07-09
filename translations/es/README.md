@@ -136,7 +136,7 @@ Ve a los siguientes componentes para actualizar la línea `import image...` haci
 
 ### 3️⃣ Agrega proyectos en los que has trabajado
 
-La sescción About ayuda a dar a las personas un poco más de información acerca de tus habilidades y pasiones. En `/src/Components/About.jsx` encontrarás dos valores a ser actualizados:
+La sección 'About' _(sobre mi)_ ayuda a dar a las personas un poco más de información acerca de tus habilidades y pasiones. En `/src/Components/About.jsx` encontrarás dos valores que deben ser actualizados:
 
 * `description`: una o dos oraciones cortas describiendote, tus metas en la carrera y/o pasiones.
 * `detailOrQuote`: un bloque más largo para añadir más detalles sobre tí, om si gustas, citar una frase que te guste.
