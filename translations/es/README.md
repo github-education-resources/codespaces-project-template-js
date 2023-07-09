@@ -285,7 +285,7 @@ En `devcontainer.json`, ve a la siguiente línea en los valores de `settings`: `
 
 En el encabezado de tu sitio tienes enlaces a cada siguiente sección. Haz clic en uno de estos enlaces y observa cómo se desplaza por la página hasta esa sección. No es realmente un desplazamiento, ¿verdad?
 
-Hagamos de esta una mejor experiencia de usuario relentizando eso para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. 
+Hagamos una mejor experiencia de usuario para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. 
 
 1. Abre `styles.css`, que es la hoja de estilo para tu portafolio. Necesitamos agregar un estilo para `html`. Si te fijas, verás que ahora mismo los estilos `html` y `body` se están configurando juntos, sin un estilo definido para `scroll-behavior`. Vamos a darle a Copilot una instrucción para que lo añada por nosotros:
 
