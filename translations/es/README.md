@@ -24,7 +24,7 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 3. Escribe un nombre único para el nuevo repositorio.
 4. Haz clic en el botón **Code** o **Código**
 5. Haz clic en el botón **Crear codespace en el botón principal** o **Create Codespace on main**.
-1. [Personaliza el sitio de tu portafolio](#personaliza-tu-pagina-web-en-3-pasos)
+1. [Personaliza el sitio de tu portafolio](#-personaliza-tu-pagina-web-en-3-pasos)
 1. [Sube tu Portafolio a la nube](#-subir-tu-aplicacion-web)
 
 
