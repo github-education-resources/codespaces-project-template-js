@@ -360,7 +360,7 @@ Por ejemplo, agreguemos una sección de educación a tu portafolio.
 
 1. Presiona `enter` luego de la línea para que Copilot sugiera el código para crear tu componente `Education` . Presiona `tab` para aceptar la solución o `crtl` + `enter` para ver todas las sugerencias de Copilot y seleccionar la que mejor funcione para tí. 
 
-    Minimamente, necesitarás un `const` definido en el componente `Education` exportado (un ejemplo abajo). El resto depende de tí. Experimenta con Copilot, enlazandolo con lo que tu desees construir. 
+    Al menos, necesitarás un `const` definido y el componente `Education` exportado (un ejemplo abajo). El resto depende de tí. Experimenta con Copilot, enlazándolo con lo que tu desees construir. 
     ```javascript
     import React from "react";
     
