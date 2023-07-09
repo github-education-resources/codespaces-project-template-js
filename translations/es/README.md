@@ -241,7 +241,7 @@ A continuación, se presentan 4 formas adicionales en que puede continuar person
 
 > 👋 Obteniendo el acceso a Copilot
 >
-> Si aún no tienes Copilot, puedes [pedirlo aquí](https://github.com/login?return_to=%2fgithub-copilot%2fsignup). Si eres estudiante, puedes obtener acceso de forma **GRATUITA** [siguiendo estas instrucciones:](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-setting-up-github-student-and-github-copilot-as-an/ba-p/3736279?WT.mc_id=academic-0000-sagibbon).
+> Si aún no tienes Copilot, puedes [solicitarlo aquí](https://github.com/login?return_to=%2fgithub-copilot%2fsignup). Si eres estudiante, puedes obtener acceso de forma **GRATUITA** [siguiendo estas instrucciones:](https://aka.ms/GitHubCopilot4Edu).
 >
 >Para asegurarse que Copilot está funcionando correctamente, navega hasta la pestaña de extensión de tu Codespace y fíjate el estado de la extensión de Copilot. Si el estado es inactivo, vuelve a crear el Codespace y habilita la extensión para asegurarte de que esté activada.
 
