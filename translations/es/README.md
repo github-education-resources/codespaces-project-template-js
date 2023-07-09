@@ -79,7 +79,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
    Cuando se inicie la aplicación web, verás un mensaje que te indicará que se inició correctamente en el puerto 1234 dentro de tu Codespace:
 
-   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
+   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Aplicación web iniciada en puerto 1234" style="width: 300px;"/>
 
 <br />
 
