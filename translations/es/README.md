@@ -4,7 +4,7 @@
 
 _Crea, personaliza e implementa tu propio portafolio web en minutos._  ✨
 
-En esta plantilla tenemos el entorno de desarrollo y una base predeterminada lista para usar. Con todo ello ya podrás iniciar inmediatamente tu entorno de [Codespace](https://github.com/features/codespaces/ y personalizar tu página web usando [Copilot](https://copilot.github.com) para que puedas escribir código de forma más rápida. 
+En esta plantilla tenemos el entorno de desarrollo y una base predeterminada lista para usar. Con todo esto, podrás iniciar inmediatamente tu [Codespace](https://github.com/features/codespaces/ y personalizar tu página web usando [Copilot](https://copilot.github.com) para que puedas escribir código de forma más rápida. 
 
 * **¿Para quién es esto?** __Para cualquier persona__ que este buscando crear su portafolio web, desee aprender sobre desarrollo web o probar Codespaces.
 * **¿Qué experiencia necesitas?** __Cero experiencia__. Tú decides cuánto deseas personalizar basado en tu experiencia y tiempo disponible. 
