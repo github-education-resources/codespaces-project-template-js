@@ -35,7 +35,7 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 
 <br />
 
-## 🗃️ Plantilla del Portafolio en JavaScript
+## 🗃️ Plantilla: Tu portafolio web con JavaScript
 
 Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal utilizando el framework React. **El objetivo es darte una plantilla que puedas utilizarla inmediatamente para crear tu propia página web a través de Codespaces.**
 
