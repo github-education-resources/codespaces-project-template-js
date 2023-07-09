@@ -202,7 +202,7 @@ Con tu proyecto abierto en Codespaces:
 ![Azure Static Web App deploy](/__images__/swa-deploy.gif "despliegue de Azure Static Web Apps")
 
 1. Para ver el estado de tu despliegue, busca tu recurso de Static Web App en la pestaña de Azure en la barra izquierda de VS Code.
-1. Una vez el despliegue fue completado, podrás ver tu aplicación de marca nueva accesible haciendo click derecho en tu recurso de Static Web App y seleccionando "Browse Site" (Navegar por el sitio).
+1. Una vez que el despliegue haya sido completado, podrás ver tu aplicación nueva al hacer click derecho en tu recurso de Static Web App y seleccionando "Browse Site" (Navegar por el sitio).
 
 > **¿Problemas?** Cuando creas tu Static Web App, si tu propósito es seleccionar una suscripción de Azure y no puedes hacerlo, revisa la pestaña "Accounts" (Cuentas) en VS Code. Asegúrate de escoger las opciones "Permitir acceso a..." si es que aparecen. En caso de recibir el mensaje "RepositoryToken is invalid. ..." (El token del repositorio es inválido...), cambia al Visual Studio Code para web (vscode.dev) y repite los pasos.
 
