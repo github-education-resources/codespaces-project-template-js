@@ -193,7 +193,7 @@ Con tu proyecto abierto en Codespaces:
 1. En el menú Azure, haz clic en el signo "+" y, a continuación, en "Create Static Web App".
 1. Si no has iniciado sesión en GitHub, se te pedirá que inicies sesión. Si tienes algún cambio de archivo pendiente, se te pedirá que confirmes esos cambios.
 1. Ingresa la información de tu aplicación cuando se te solicite:
-    1. **Región**: Elige el más cercano a donde te encuentres.
+    1. **Región**: Elige el más cercano a ti.
     1. **Estructura del proyecto**: selecciona "React".
     1. **Ubicación del código de aplicación**: `/`
     1. **Ubicación de compliación**: `dist`
