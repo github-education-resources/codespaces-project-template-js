@@ -68,7 +68,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 3. Dirigete a la página principal del repositorio creado.
 3. Debajo del nombre del repositorio, usa el menú desplegable del Código y, en la pestaña de Codespaces selecciona "Create codespace on main".
 
-    <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
+    <img src="./__images__/createcodespace.png" alt="Crea tu codespace" style="width:270px;"/>
     
 4. Espera mientras GitHub inicializa el Codespace.
 
