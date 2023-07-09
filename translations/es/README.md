@@ -344,6 +344,7 @@ _Ayuda_: Entu archivo `styles.css`, usa comentarios para decirle a Copilot lo qu
 -------
 
 <br/>
+
 ### 4. Agrega una nueva sección
 
 Comenzamos con algunas secciones básicas para tu portafolio web, pero tienes libertad creativa para hacerlo tuyo y agregar nuevas secciones relevantes para lo que deseas en tu página. 
