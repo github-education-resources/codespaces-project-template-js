@@ -65,7 +65,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 ### Crea tu Portafolio
 
 1. Crea un repositorio a partir de esta plantilla. Usa este [link para crear el repositorio](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecciona el propietario del repositorio, proporciona un nombre, una descripción si lo deseas y selecciona si tu nuevo repositorio será público o privado.
-2.Antes de crear el Codespace, habilita GitHub Copilot para tu cuenta. Si no está habilitado, dale una mirada a [Personaliza tu Portafolio web usando Copilot](#-customize-your-site-in-3-steps).
+2. Antes de crear el Codespace, habilita GitHub Copilot para tu cuenta. Si no está habilitado, dale una mirada a [Personaliza tu Portafolio web usando Copilot](#-customize-your-site-in-3-steps).
 3. Dirigete a la página principal del repositorio creado.
 3. Debajo del nombre del repositorio, usa el menú desplegable del Código y, en la pestaña de Codespaces selecciona "Create codespace on main".
 
