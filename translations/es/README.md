@@ -75,7 +75,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Iniciando el Codespace" style="width: 600px;"/>
     
-5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás `npm install` ejecutando. Después de que se complete la instalación de paquetes, Codespaces ejecutará  `npm run start` para iniciar tu aplicación web ejecutandose dentro de tu Codespace.
+5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás `npm install` ejecutando. Después de que se complete la instalación de paquetes, ve a la terminal y escribe `npm run start` para iniciar tu aplicación web en tu Codespace.
 
    Cuando se inicie la aplicación web, verás un mensaje que te indicará que se inició correctamente en el puerto 1234 dentro de tu Codespace:
 
