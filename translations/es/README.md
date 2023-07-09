@@ -199,7 +199,7 @@ Con tu proyecto abierto en Codespaces:
     1. **Ubicación de compliación**: `dist`
 1. Cuando hayas terminado, verás una notificación en la parte inferior de la pantalla y se agregará un nuevo flujo de trabajo de GitHub Action a tu proyecto. Si haces click en "Open Action in GitHub" (Abrir accción en GitHub), verás la acción que se creó para tí y que se está ejecutando en el momento.
 
-![Azure Static Web App deploy](/__images__/swa-deploy.gif "Azure Static Web App deploy")
+![Azure Static Web App deploy](/__images__/swa-deploy.gif "despliegue de Azure Static Web Apps")
 
 1. Para ver el estado de tu despliegie, busca tu recurso de Static Web App en la pestaña de Azure en la barra izquierda de VS Code.
 1. Una vez el despliegue fue completado, podrás ver tu aplicación de marca nueva accesible haciendo click derecho en tu recurso de Static Web App y seleccionando "Browse Site" (Navegar por el sitio).
