@@ -389,7 +389,7 @@ En tu Codespace, tu aplicación con tu portafolio debe estar ejecutándose y vol
 -------
 ⭐ COPILOT BONUS ⭐ 
 
-Ahora que estás familiarizado en que Copilot puede no solamente escribir código rápido, pero te da unas sugerencias para ahorrar tiempo buscando soluciones.
+Ahora sabes que GitHub Copilot puede escribir código rápido y también te da unas sugerencias para ahorrar tiempo buscando soluciones.
 
 Revisa como puedes usar Copilot para ayudarte:
 * añade Education en la parte superior de tu navegación.
