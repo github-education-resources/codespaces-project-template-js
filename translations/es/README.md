@@ -176,7 +176,7 @@ const projectList = [
 
 ## 🏃 Subir tu aplicación web
 
-El proyecto incluye la configuración necesaria para implementar **gratis** para [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**o**_ [GitHub Pages](https://pages.github.com/)</a>. Las instrucciones para ambas se encuentran a continuación:
+El proyecto incluye la configuración necesaria para implementar **gratis** en [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=academic-79839-sagibbon) _**o**_ [GitHub Pages](https://pages.github.com/)</a>. Las instrucciones para ambas se encuentran a continuación:
 
 ### Azure Static Web Apps
 
