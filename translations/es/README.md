@@ -339,7 +339,7 @@ Tu sitio web ya debería estar ejecutándose en tu Codespace, y el cambio se vol
 
 Usa Copilot para animar la flecha de desplazarse hacia abajo en tu componente `Home` para rebotar de arriba a abajo en tu página. 
 
-_Ayuda_: Entu archivo `styles.css`, usa comentarios para decirle a Copilot lo que quieres que haga. Revisa lo que te sugiere, complementa tus instrucciones, y fijate como te guía en conseguir crear tu flecha para rebotar. 
+_Ayuda_: En tu archivo `styles.css`, usa comentarios para decirle a Copilot lo que quieres que haga. Revisa lo que te sugiere, complementa tus instrucciones, y fíjate como te guía en conseguir crear tu flecha para rebotar. 
 
 -------
 
