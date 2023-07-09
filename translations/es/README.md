@@ -145,7 +145,7 @@ La segunda sección que deberás actualizar es la sección del Portafolio, donde
 
 Ve a `/src/Components/Portfolio.jsx` a la variable `projectList`. Este es un arreglo de objetos de JavaScript. Cada cosa que quieras resaltar necesita: título, descripción y una URL.
 
-Este ejemplo tiene 4, pero la cantidad que inlcuyas depende de tí
+Este ejemplo tiene 4, pero la cantidad que incluyas depende de ti.
 
 ```javascript
 const projectList = [
