@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/fyi.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Magic with Linux Commands",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Start using Linuc operating system that allows you to outperfrom your system with multiple customization options available.",
+    url: "https://dev.to/beingwizard/magic-with-linux-commands-47m1",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Safeguarding Your Cloud Environment: A Comprehensive Approach to Cloud Security",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "AWS or any cloud has its multiple significance to build and create with but having a secure env is necessary, learn the steps before choosing any service.",
+    url: "https://dev.to/beingwizard/safeguarding-your-cloud-environment-a-comprehensive-approach-to-cloud-security-1g52",
   },
   {
-    title: "My Resume Site",
+    title: "Microsoft Cloud Skill Challenge",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Empower Your Future: Get Certified through the Microsoft Cloud Skill Challenge",
+    url: "https://dev.to/beingwizard/empower-your-future-get-certified-through-the-microsoft-cloud-skill-challenge-mpd",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Zero Shot Learning",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "AI Learns from the data that you input, but sometimes it doesn't need your data to make any decision.",
+    url: "https://www.linkedin.com/posts/wizardlocks_ai-data-learning-activity-7064072899871014912-WCT-?utm_source=share&utm_medium=member_desktop",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Articles</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
