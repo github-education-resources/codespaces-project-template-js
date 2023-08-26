@@ -5,26 +5,24 @@
  */
 
 import React from "react";
-
+import image from "../images/heart.png";
+import imagey from "../images/rainbow.png";
 /**
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
-
-const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science Student studying at Heriot-Watt University, passionate about all things tech! I enjoy creating unique programs that highlight my personality.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +30,22 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "Database and SQL",
+  "Data structures and algorithms",
+  "Microsoft Power Platform",
+  "Microsoft Azure",
   "Graphic design",
+];
+
+const plList = [
+  "Java",
+  "Python",
+  "C",
+  "Prolog",
+  "OCaml",
+  "XPath",
+  "SQL",
+  "HTML, CSS & JavaScript,",
 ];
 
 /**
@@ -45,12 +54,11 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am deeply committed to tackling challenges through original and imaginative approaches, aiming to pave the way for innovation. ";
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
@@ -60,9 +68,13 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <img src={image} alt="heart" className="overlayheart"></img>
+        <h2>
+          <b>About Me!</b>
+        </h2>
         <p className="large">{description}</p>
         <hr />
+        <h2>Skills</h2>
         <ul
           style={{
             textAlign: "left",
@@ -77,7 +89,23 @@ const About = () => {
           ))}
         </ul>
         <hr />
+        <h2>Programming Languages</h2>
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {plList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <img src={imagey} alt="heart" className="overlayrain"></img>
       </div>
     </section>
   );
