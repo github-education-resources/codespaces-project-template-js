@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website. The website showcases my projects, skills, and provides a way for others to get in touch with me. It is built using Vite.js, HTML, CSS, and React, and is deployed using Netlify.
 
-You can access the live website at [https://lohitkolluri.vercel.app/](https://lohitkolluri.vercel.app/).
+You can access the live website at [[https://lohitkolluri.vercel.app/](https://orange-cliff-0d2caf100.3.azurestaticapps.net/)]
 
 ## Features
 
