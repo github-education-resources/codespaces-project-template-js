@@ -1,39 +1,44 @@
 {
-  "name": "educator-js-codespace-template",
-  "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
-  "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
-  },
-  "author": "Microsoft",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-pdf/renderer": "^3.1.12",
+    "@react-three/drei": "^9.74.15",
+    "@react-three/fiber": "^8.13.3",
+    "framer-motion": "^10.12.16",
+    "maath": "^0.6.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-pdf": "^7.1.2",
+    "react-router-dom": "^6.13.0",
+    "react-tilt": "^1.0.2",
+    "react-type-animation": "^3.1.0",
+    "react-typewriter-effect": "^1.1.0",
+    "react-vertical-timeline-component": "^3.6.0",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.7",
-    "gh-pages": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
-    "parcel": "^2.7.0",
-    "prettier": "^2.7.1",
-    "process": "^0.11.10"
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "three": "^0.153.0",
+    "vite": "^4.3.9"
   }
 }
