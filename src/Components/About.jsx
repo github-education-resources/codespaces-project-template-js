@@ -75,30 +75,14 @@ const About = () => {
         <p className="large">{description}</p>
         <hr />
         <h2>Skills</h2>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <ul>
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
         </ul>
         <hr />
         <h2>Programming Languages</h2>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <ul>
           {plList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}

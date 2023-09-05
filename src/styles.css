@@ -130,6 +130,14 @@ img.socialIcon {
   width: 30px;
 }
 
+ul {
+  text-align: "left";
+  columns: 2;
+  font-size: "1.25rem";
+  margin: "2rem 3rem";
+  gap: "3rem";
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -174,3 +182,50 @@ img.socialIcon {
   opacity: 1; /* Adjust the opacity as desired */
   transform: rotate(10deg);
 }
+
+@media only screen and (max-width: 700px) {
+  ul {
+    columns: 1; /* Display list items in a single column on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    position: relative; /* Set the container as the relative positioning context */
+    display: flex;
+    justify-content: flex-end; /* Align the contents to the right side */
+    align-items: flex-start; /* Align the contents to the top */
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .overlayheart {
+    width: 15%; /* Adjust as needed */
+    opacity: 1; /* Adjust the opacity as desired */
+    transform: translate(50%, -50%); /* Center the image on the top right */
+  }
+  
+  
+}
+
+
+
+
+
+

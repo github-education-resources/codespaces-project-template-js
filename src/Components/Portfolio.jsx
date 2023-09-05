@@ -13,6 +13,7 @@ import React from "react";
 
 import image from "../images/collage.jpg";
 
+
 const imageAltText = "desktop with books and laptop";
 
 /**
@@ -25,17 +26,17 @@ const projectList = [
   {
     title: "Projects",
     description: "Check out projects I've worked on, in and out of university!",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    url: "https://github.com/rachaeltdias",
   },
   {
     title: "Events",
     description: "Check out the other fun things I've done!",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    url: "https://lablab.ai/u/@rachaeldias",
   },
   {
     title: "My Resume!",
     description: "Check out my resume at this link ^ ",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://drive.google.com/file/d/19h6jvC_kTWEnBBHYnj6lL65zj51QfIx4/view?usp=drive_link",
   },
 ];
 
