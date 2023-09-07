@@ -39,7 +39,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 ## 🗃️ JavaScript Portfolio template
 
-This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
+This repo is a GitHub template to build a JavaScript personal portfolio frontend web application using the React framework. The goal is to give you a template that you can immediately utilize to create your own website through Codespaces.
 
 The repo contains the following:
 
