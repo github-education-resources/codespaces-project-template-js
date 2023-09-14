@@ -18,13 +18,13 @@ import React from "react";
  */
 import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Get it Right NOW!";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Web Developer studying at Holberton Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -37,6 +37,30 @@ const skillsList = [
   "Focus group testing",
   "Mobile user interfaces",
   "Graphic design",
+  "Web development",
+  "Front-end development",
+  "Back-end development",
+  "Full-stack development",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Python",
+  "Flask",
+  "SQL",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Material UI",
+  "Git",
+  "GitHub",
+  "Heroku",
+  "Netlify",
+  "Figma",
+  "Adobe XD",
+  "Adobe Photoshop",
+  "Adobe Illustrator"
 ];
 
 /**
@@ -45,7 +69,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Web Dev experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (
@@ -60,7 +84,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About Mye</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
