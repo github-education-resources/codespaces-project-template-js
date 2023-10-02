@@ -1,3 +1,4 @@
+# Given the amount of PRs that this repository receives, this workflow pre-emptively closes PRs unless the `pre-approved` label is set.
 name: Auto close pull requests
 on:
   pull_request:
