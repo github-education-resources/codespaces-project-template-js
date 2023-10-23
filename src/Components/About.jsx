@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/Untitled design.png";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,25 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Artificial intelligence and Machine Learning student studying at GGSIPU, Delhi. I have a keen interest in all things AI.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
+ * Machine Learning   •Data Scraping   •MySQL   •Deep Learning   •Data Visualisation   •Python   •Artificial Intelligence  
+•     Java   •MS Excel   •NLP   •Computer Vision   •Generative AI    •Soft Skills
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Artificial Intelligence",
+  "Machine Learning",
+  "Deep Learning",
+  "Generative AI",
+  "NLP",
+  "Java/Python",
+  "Computer Vision",
+  "Data Visualisation",
+  "Data Scraping",
+  "Database Management",
 ];
 
 /**
@@ -45,7 +51,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Machine Learning experience, I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (
