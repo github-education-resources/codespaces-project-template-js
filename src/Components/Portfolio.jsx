@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Technocolabs - Front-End Web Development Intern",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Worked on a project to build a web application to predict the price of a used car based on various features using Machine Learning.",
+    url: "https://drive.google.com/file/d/1DSjSUK2rK1b0BkxZsUhPiOfSyQ6ZhuOU/view?usp=sharing",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Google Developer Student Club Lead",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Lead the club to conduct various events and workshops to help students learn and grow.",
   },
   {
-    title: "My Resume Site",
+    title: "My Resume",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+     "This resume includes my experience and position of responsibilities.",
+    url: "https://drive.google.com/file/d/1gM-NdzyoEg5EMNDGa7WUpUXzHrxQ_kko/view?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "MedPill Website - Future Ready Talent Project",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Worked on a project to build a website for a startup to help them reach out to more customers.",
+    url: "https://youtu.be/q6AnabFthJ0"
   },
 ];
 
