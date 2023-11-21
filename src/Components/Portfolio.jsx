@@ -43,15 +43,14 @@ const projectList = [
   },
   {
     title: "My Resume",
-    description:
-     "This resume includes my experience and position of responsibilities.",
+    description: "This resume includes my experience and position of responsibilities.",
     url: "https://drive.google.com/file/d/1gM-NdzyoEg5EMNDGa7WUpUXzHrxQ_kko/view?usp=sharing",
   },
   {
     title: "MedPill Website - Future Ready Talent Project",
     description:
       "Worked on a project to build a website for a startup to help them reach out to more customers.",
-    url: "https://youtu.be/q6AnabFthJ0"
+    url: "https://youtu.be/q6AnabFthJ0",
   },
 ];
 
