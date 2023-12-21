@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/girl.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "girl laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Pathfinding Visualizer",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project is made to understand the concepts of DSA while learning React js. This project demonstrates different path-finding algorithms like Dijksitra, BFS,DFS , Greedy etc",
+    url: "https://vardapanchal005.github.io/Pathfinding-Visualizer/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sorting Visualizer",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This project is made to understand the concepts of DSA while learning React js. This project demonstrates different sorting algorithms like merge sort , bubble sort, heap sort and quick sort",
+    url: "https://vardapanchal005.github.io/Sorting-Visualizer/",
   },
   {
-    title: "My Resume Site",
+    title: "WindBits",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This webpage's motto is to fetch the current atmospheric conditions from different cities around the world with pic of the city in the background. Tech stack used in the project are Openweather API,HTML,CSS and Javascript",
+    url: "https://vardapanchal005.github.io/WindBits/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "QuickTick",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This website is made to understand and implement concepts of Blockchain. You can add or delete the task with MetaMask authorization to keep track of daily activities.",
+    url: "https://github.com/VardaPanchal005/To-do",
   },
 ];
 
