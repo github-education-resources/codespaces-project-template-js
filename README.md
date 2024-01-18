@@ -368,9 +368,9 @@ For an example, let's add an education section to your portfolio site.
 
     As you start typing it will pick up what you are doing and may offer an autocomplete of that line.
 
-1. Press `enter` after the import line to have Copilot suggest code to create your `Education` component. Press `tab` to accept the solution or `crtl` + `enter` to view all Copilot suggestins and select the one that works for you. 
+1. Press `enter` after the import line to have Copilot suggest code to create your `Education` component. Press `tab` to accept the solution or `crtl` + `enter` to view all Copilot suggestions and select the one that works for you. 
 
-    At minimum, you need an `const` defined and the `Education` component exported (example below). The rest is up to you. Experiment with Copilot, nudging it along with what you'd like it to build out. 
+    At minimum, you need a `const` defined and the `Education` component exported (example below). The rest is up to you. Experiment with Copilot, nudging it along with what you'd like it to build out. 
     ```javascript
     import React from "react";
     
