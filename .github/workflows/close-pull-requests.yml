@@ -14,7 +14,7 @@ jobs:
       if: |
         (
           !contains(github.event.pull_request.labels.*.name, 'pre-approved')
-          &&
+          ||
           !contains(github.event.pull_request.body, '@alfredodeza')
         )
       run: |
