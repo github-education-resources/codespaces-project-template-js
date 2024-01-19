@@ -23,7 +23,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 1. Click the **Use this Template** button and then **Create a new repository** as can be seen in the image below.
    Note: Make sure you've signed in to GitHub otherwise, you wouldn't see the **Use this Template** button.
-
+![JavaScript profile web application](/__images__/use-this-template.png "Use this Template Image Guide")
 1. Select the repository owner (e.g. your GitHub account)
 1. Enter a unique name for your new repository
 1. Click the **Code** button
