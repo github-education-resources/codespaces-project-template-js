@@ -1,7 +1,7 @@
 name: Auto close pull requests
 on:
   pull_request_target:
-    types: [opened, labeled, unlabeled]
+    types: [opened, labeled, unlabeled, reopened]
 
 jobs:
   auto_close:
