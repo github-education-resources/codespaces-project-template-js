@@ -9,13 +9,16 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-
+      
+    - name: Debug contains
+      echo: "The body of the pull request contains alfredodeza: ${{ contains(github.event.pull_request.body, 'alfredodeza' }} , and contains @alfredodeza: ${{ contains(github.event.pull_request.body, '@alfredodeza' }}
+      
     - name: Close PR if not pre-approved
       if: |
         ${{ !(
           contains(github.event.pull_request.labels.*.name, 'pre-approved')
           ||
-          contains(github.event.pull_request.body, '@alfredodeza')
+          contains(github.event.pull_request.body, 'alfredodeza')
         ) }}
       run: |
         MESSAGE="This repository doesn't accept pull requests. Please fork the repository and make changes there. If you really need this PR to be merged you must be an admin and label this pr with the 'pre-approved' label *or* tag Alfredo Deza (alfredodeza) to take a look."
