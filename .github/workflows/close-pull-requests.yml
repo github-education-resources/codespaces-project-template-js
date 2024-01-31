@@ -15,7 +15,7 @@ jobs:
         echo "The body of the pull request contains alfredodeza: ${{ contains(github.event.pull_request.body, 'alfredodeza') }} , and contains @alfredodeza: ${{ contains(github.event.pull_request.body, '@alfredodeza') }}"
      
     - name: Debug Close PR if not pre-approved
-      if: ${{ !(contains(github.event.pull_request.labels.*.name, 'pre-approved')) || !(contains(github.event.pull_request.body, 'alfredodeza')) }}
+      if: ${{ !(contains(github.event.pull_request.labels.*.name, 'pre-approved')) && !(contains(github.event.pull_request.body, 'alfredodeza')) }}
       run: |
         echo "Debug close was triggered"
         
@@ -23,7 +23,7 @@ jobs:
       if: |
         ${{ !(
           contains(github.event.pull_request.labels.*.name, 'pre-approved')
-          ||
+          &&
           contains(github.event.pull_request.body, 'alfredodeza')
         ) }}
       run: |
