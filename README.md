@@ -79,7 +79,7 @@ Your development environment is all set for you to start. Based on our [JavaScri
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
     
-5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codesaces will execute `npm start` to start your web application running within your Codespace. 
+5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codespaces will execute `npm start` to start your web application running within your Codespace. 
 
    When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
 
