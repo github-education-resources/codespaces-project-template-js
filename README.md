@@ -6,7 +6,7 @@
 
 _Create, customize and deploy your own portfolio website in minutes._ ✨
 
-In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster. 
+In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster.
 
 * **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
 * **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
@@ -28,12 +28,12 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 1. Enter a unique name for your new repository
 1. Click the **Code** button
 1. Click **Create Codespace on main** button
-1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot 
+1. [Customize your portfolio site](#-customize-your-site-in-3-steps) with Copilot
 1. [Deploy your site](#-deploy-your-web-application)
 
 <details>
    <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
-   
+
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
@@ -74,24 +74,24 @@ Your development environment is all set for you to start. Based on our [JavaScri
 
     <img src="./__images__/createcodespace.png" alt="Create codespace" style="width:270px;"/>
 
-    
+
 4. Wait as GitHub initializes the Codespace.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
-    
-5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codespaces will execute `npm start` to start your web application running within your Codespace. 
+
+5. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codespaces will execute `npm start` to start your web application running within your Codespace.
 
    When the web application has successfully started you will see a message in the terminal that the server is running on port 1234 within your Codespace:
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
-   
+
 <br />
 
 ## ✨ Customize your site in 3 steps
 
 This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespace. 
+For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespace.
 
 > See [Using source control in your codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
@@ -233,7 +233,7 @@ With your project open in Codespaces:
 
 <br />
 
-## 🏆 Customizing with Copilot 
+## 🏆 Customizing with Copilot
 
 Below are 4 additional ways you can continue to customize your Codespace and portfolio site. We'll show you how to use Copilot to make suggestions for faster development, and help you learn more HTML, CSS and JavaScript along the way.
 
@@ -267,9 +267,9 @@ Your environment comes with preinstalled extensions. You can change which extens
 1. Let's add the `indent-rainbow` extension. To do this, go to the **extensions** list and add:
 
    ```json
-   "oderwat.indent-rainbow" 
+   "oderwat.indent-rainbow"
    ```
-  
+
    What you did above was to add the unique identifier of an extension of the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79839-sagibbon). This will let Codespaces know that this extension should be pre-installed upon startup.
 
 To find the unique identifier of an extension:
@@ -278,12 +278,12 @@ To find the unique identifier of an extension:
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 -------
-⭐ COPILOT BONUS ⭐ 
+⭐ COPILOT BONUS ⭐
 
 
-In `devcontainer.json`, go to the following line in the `settings` values: `"emmet.triggerExpansionOnTab": true`. Add a comma at the end of the line and press enter. See what other settings Copilot recommeneds and if they'd help you in your Codespace. 
+In `devcontainer.json`, go to the following line in the `settings` values: `"emmet.triggerExpansionOnTab": true`. Add a comma at the end of the line and press enter. See what other settings Copilot recommeneds and if they'd help you in your Codespace.
 
-   
+
 > 💡 Learn more on how to [Personalize Your GitHub Codespace](https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
 <br/>
@@ -292,11 +292,11 @@ In `devcontainer.json`, go to the following line in the `settings` values: `"emm
 
 In your site header you have links to each section below. Click one of these links and watch it scroll the page to that section. Not really a scroll, right?
 
-Let's make this a better user experience by slowing that down so the user has a sense of what is happening, and where they are navigating to on the page. 
+Let's make this a better user experience by slowing that down so the user has a sense of what is happening, and where they are navigating to on the page.
 
-1. Open `styles.css`, which is the stylesheet for your portfolio application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, with no style set for `scroll-behavior`. Let's give Copilot a prompt to add this for us. 
+1. Open `styles.css`, which is the stylesheet for your portfolio application. We need to add a style for `html`. If you look, you'll see right now `html` and `body` styles are being set together, with no style set for `scroll-behavior`. Let's give Copilot a prompt to add this for us.
 
-1. Below the `html` and `body` styling prompt Copilot with a comment of: 
+1. Below the `html` and `body` styling prompt Copilot with a comment of:
 `/* add a smooth scroll */`
 
 1. Copilot will then suggest the CSS below:
@@ -313,11 +313,11 @@ Your site should already be running in your Codespace, and the change will reloa
 
 ### 3. Animate desk photo
 
-Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
+Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section.
 
-1. Open your site's stylesheet, `styles.css` within your Codespace. Using Copilot, at the bottom of your `styles.css` prompt Copilot with the following comment: 
+1. Open your site's stylesheet, `styles.css` within your Codespace. Using Copilot, at the bottom of your `styles.css` prompt Copilot with the following comment:
     ```css
-    /* add a slide in animation */
+    /* add a slide In Left animation */
     ```
 
     It should then suggest the following animation sequence for you. Press the tab key to accept, or continue to type until Copilot completes suggestions, and you have your animation ready to use.
@@ -330,26 +330,26 @@ Animations are a way you can easily add some motion to elements on your page to 
         transform: translateX(0);
       }
     }
-    ``` 
-1. With the animation sequenece defined, we can now tell our desk photo to animate itself with our new `slideIn` animation sequence. Open `Portfolio.jsx` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
+    ```
+1. With the animation sequenece defined, we can now tell our desk photo to animate itself with our new `slideInLeft` animation sequence. Open `Portfolio.jsx` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
     ```css
-    animation: "1s ease-out 0s 1 slideIn";
+    animation: "1s ease-out 0s 1 slideInLeft";
     ```
 
     Your image tag should look something like:
     ```html
-    <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }} />
+    <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
     ```
 
 Your site should already be running in your Codespace, and the change will reload onto the page automatically. Scroll up and down the page and watch your desk photo slide onto the page.
 
 
 -------
-⭐ COPILOT BONUS ⭐ 
+⭐ COPILOT BONUS ⭐
 
-Use Copilot to help you animate the scroll down arrow in your `Home` component to bounce up and down on your page. 
+Use Copilot to help you animate the scroll down arrow in your `Home` component to bounce up and down on your page.
 
-_Hint_: In your `styles.css` file, use comments to start to tell Copilot what you want to do. See what is suggests, adjust your prompts, and see how it guides you to get your arrow to bounce. 
+_Hint_: In your `styles.css` file, use comments to start to tell Copilot what you want to do. See what is suggests, adjust your prompts, and see how it guides you to get your arrow to bounce.
 
 -------
 
@@ -359,7 +359,7 @@ _Hint_: In your `styles.css` file, use comments to start to tell Copilot what yo
 
 We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own and add new sections relevant to what you want on your site.
 
-For an example, let's add an education section to your portfolio site. 
+For an example, let's add an education section to your portfolio site.
 
 1. Create a new component for the section within the `Components` folder. Add a new file called `Education.jsx`.
 
@@ -370,12 +370,12 @@ For an example, let's add an education section to your portfolio site.
 
     As you start typing it will pick up what you are doing and may offer an autocomplete of that line.
 
-1. Press `enter` after the import line to have Copilot suggest code to create your `Education` component. Press `tab` to accept the solution or `crtl` + `enter` to view all Copilot suggestions and select the one that works for you. 
+1. Press `enter` after the import line to have Copilot suggest code to create your `Education` component. Press `tab` to accept the solution or `crtl` + `enter` to view all Copilot suggestions and select the one that works for you.
 
-    At minimum, you need a `const` defined and the `Education` component exported (example below). The rest is up to you. Experiment with Copilot, nudging it along with what you'd like it to build out. 
+    At minimum, you need a `const` defined and the `Education` component exported (example below). The rest is up to you. Experiment with Copilot, nudging it along with what you'd like it to build out.
     ```javascript
     import React from "react";
-    
+
     const Education = () => {
         return(
             <section className="light" id="education">
@@ -383,7 +383,7 @@ For an example, let's add an education section to your portfolio site.
             </section>
         )
     }
-    
+
     export default Education;
     ```
 3. In `App.jsx` import your new `Education` component at the top by adding the following, and watch as Copilot starts to see what you are doing and give you auto-complete suggestions:
@@ -395,16 +395,16 @@ For an example, let's add an education section to your portfolio site.
     <Education />
     ```
 
-In your Codespace, your portfolio application should be running and will reload your site with the changes. 
+In your Codespace, your portfolio application should be running and will reload your site with the changes.
 
 -------
-⭐ COPILOT BONUS ⭐ 
+⭐ COPILOT BONUS ⭐
 
 Now that you are familiar how Copilot can not only help you code faster, but give you suggestions to save you time looking up solutions.
 
 Explore how you can use Copilot to help you:
 * add Education to your top navigation
-* build education details by prompting it (_Hint_: add the comment of "grid of 4 education cells") 
+* build education details by prompting it (_Hint_: add the comment of "grid of 4 education cells")
 -------
 
 <br />
@@ -426,5 +426,5 @@ Explore how you can use Copilot to help you:
 
 <br />
 
-## 🔎 Found an issue or have an idea for improvement? 
+## 🔎 Found an issue or have an idea for improvement?
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new).
