@@ -61,7 +61,7 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`abdulsamad44209@gmail.com:${email}`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
@@ -71,13 +71,13 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/abdul4422/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/${instagram}`}
+            href={`https://www.instagram.com/_syed_abdul_samadshah?igsh=ZGRxNXhxd29yejFi/${instagram}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,7 +99,7 @@ const Footer = (props) => {
           </a>
         )}
         {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://twitter.com/SYED188060?t=SLZW_h7VwNi8TyVOyrO14w&s=08/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
