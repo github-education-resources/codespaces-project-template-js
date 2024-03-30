@@ -27,11 +27,11 @@ const siteProps = {
   name: "Syed Abdul Sammad",
   title: "Data Scientist & Graphics Designer",
   email: "abdulsamad44209.com",
-  gitHub: "https://github.com/abdul4422",
-  instagram: "https://www.instagram.com/_syed_abdul_samadshah?igsh=ZGRxNXhxd29yejFi",
-  linkedIn: "https://www.linkedin.com/in/syed-abdul-sammad-217240217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  gitHub: "abdul4422",
+  instagram: "_syed_abdul_samadshah",
+  linkedIn: "syed-abdul-sammad",
   medium: "",
-  twitter: "https://twitter.com/SYED188060?t=SLZW_h7VwNi8TyVOyrO14w&s=08",
+  twitter: "SYED188060",
   youTube: "abdulsamad2567",
 };
 
