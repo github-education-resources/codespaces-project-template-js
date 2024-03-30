@@ -6,6 +6,7 @@
 
 html,
 body {
+  color:red;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
@@ -34,6 +35,7 @@ section.padding {
 }
 
 section img.background {
+  color: red;
   height: 100%;
   left: 50%;
   object-fit: cover;
