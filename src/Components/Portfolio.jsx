@@ -48,7 +48,6 @@ const projectList = [
       "My Resume Site",
     url: https://dotusmanali.github.io/usman/",
   },
-
 ];
 
 const Portfolio = () => {
