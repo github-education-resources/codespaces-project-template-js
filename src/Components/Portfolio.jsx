@@ -46,7 +46,7 @@ const projectList = [
     title: "My Resume Site",
     description:
       "My Resume Site",
-    url: https://dotusmanali.github.io/usman/",
+    url: "https://dotusmanali.github.io/usman",
   },
 ];
 
