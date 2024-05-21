@@ -9,7 +9,7 @@
 
   or
 
-  2. Tag @alfredodeza to take a look
+  2. Tag alfredodeza to take a look
 
   Thank you for your understanding!
 -->
