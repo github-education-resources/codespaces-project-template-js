@@ -10,6 +10,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       
+    - name: Debug PR Event Payload
+      run: echo "${{ toJson(github.event.pull_request) }}"
+      
     - name: Close PR if not pre-approved
       if: ${{ !(contains(github.event.pull_request.labels.*.name, 'pre-approved')) && !(contains(github.event.pull_request.body, 'alfredodeza')) }}
       run: |
