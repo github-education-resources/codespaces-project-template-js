@@ -11,9 +11,9 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Close PR if not pre-approved
-      if: ${{ !(contains(github.event.pull_request.labels.*.name, 'pre-approved')) && !(contains(github.event.pull_request.body, 'alfredodeza')) }}
+      if: ${{ !(contains(github.event.pull_request.labels.*.name, 'pre-approved')) && !(contains(github.event.pull_request.body, '@alfredodeza')) }}
       run: |
-        MESSAGE="This repository doesn't accept pull requests. Please fork the repository and make changes there. If you really need this PR to be merged you must be an admin and label this pr with the 'pre-approved' label *or* tag Alfredo Deza (`@alfredodeza`) to take a look."
+        MESSAGE="This repository doesn't accept pull requests. Please fork the repository and make changes there. If you really need this PR to be merged you must be an admin and label this pr with the 'pre-approved' label *or* tag Alfredo Deza (\`@alfredodeza\`) to take a look."
         gh pr close ${{ github.event.pull_request.number }} --repo education/codespaces-project-template-js --comment "$MESSAGE"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
