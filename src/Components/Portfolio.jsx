@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "BussinessBuild Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "BussinessBuild is a dynamic website designed to help individuals, businesses, and organization effectively promote their products, services, or brands on the internet",
+    url: "https://bussiness-build.onrender.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Resume buliding website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      " Build yourresume is a front-end based website which helps in creating a resume by just filling your details and the resume is prepared automatically",
+    url: "https://build-my-resume.onrender.com/",
   },
   {
-    title: "My Resume Site",
+    title: "Movie Recommendation System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Movie recommendation system is a website built to recommend movies based on their search",
+    url: "https://github.com/umakarthik08/movie-recommendation-system",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Portfolio",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a website built to present my CV on a single page website using HTML, CSS",
+    url: "https://umakarthik08.github.io/MyCV/",
   },
 ];
 
