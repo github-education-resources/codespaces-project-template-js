@@ -19,7 +19,11 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
+<<<<<<< HEAD
 import image from "../images/design-desk.jpeg";
+=======
+import image from "../images/portfolio_img.jpg";
+>>>>>>> bfd4af7 (deployment)
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,6 +35,7 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
+<<<<<<< HEAD
     title: "10 Things To Know About Azure Static Web Apps 🎉",
     description:
       "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
@@ -53,6 +58,30 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+=======
+    title: "Threads",
+    description:
+      "Developed a web app for global interaction, utilizing Next.js, NodeJS, and MongoDB. Implemented real- time chat and notifications, enhancing user engagement and communication. Integrated user authentication and authorization using Clerk, ensuring secure and personalized user experiences.",
+    url: "https://github.com/sayanbiswas0408/Threads",
+  },
+  {
+    title: "Geargrid",
+    description:
+      "Developed an e-commerce app with Payload CMS and Next.js, boosting user engagement.Engineered a comprehensive admin panel featuring real-time analytics, inventory management, and order tracking, dramatically streamlining administrative processes and enhancing operational efficiency.",
+    url: "https://github.com/sayanbiswas0408/GearGrid",
+  },
+  {
+    title: "Mi Store",
+    description:
+      "Designed Mi Store website using React.js, HTML, CSS, JavaScript and React Bootstrap, for efficient component development and employed advanced optimization techniques to enhance website performance.",
+    url: "https://github.com/sayanbiswas0408/Mi-Store",
+  },
+  {
+    title: "YOLO-v8 License Plate Detection",
+    description:
+      "Remodeled YOLO-v8 model with Ultralytics for 95% accurate license plate detection in diverse environments.",
+    url: "https://github.com/sayanbiswas0408/Object-Detection-YOLO",
+>>>>>>> bfd4af7 (deployment)
   },
 ];
 
