@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import Education from "./Components/Education.jsx";
 
 /**
  * This object represents your information. The project is set so that you
@@ -46,6 +47,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <Education />
     </div>
   );
 };
