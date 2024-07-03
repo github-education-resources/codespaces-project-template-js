@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/comp.avif";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "iWeather",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "It provides real-time weather updates based on user location input.Integrated third-party APIs to display accurate weather data and forecasts, enhancing user experience and engagement.",
+    url: "https://himanshu08kumar.github.io/WeatherApp/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "PrepIT",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a comprehensive Android application using Android Studio to assist students in their placement preparations. Managed and curated a diverse set of placement questions, creating a valuable resource for students.",
+    url: "https://github.com/Himanshu08Kumar/PrepIt",
   },
   {
-    title: "My Resume Site",
+    title: "Notepad",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Designed an intuitive user interface, prioritizing ease of use for note creation and management. Integrated Firestore Database to enable cloud-based storage, ensuring data accessibility across devices.",
+    url: "https://github.com/Himanshu08Kumar/Notepad",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Home Automation System",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Designed and implemented an intuitive system for efficient control and monitoring of household devices. Ensured power-saving measures through centralized control and automation.",
+    url: "https://github.com/Himanshu08Kumar/IOT-Home-Automation",
   },
 ];
 

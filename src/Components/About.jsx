@@ -24,19 +24,24 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hello! My name is Himanshu Kumar, and I am a dedicated web developer with a passion for creating dynamic and user-friendly websites.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML",
+  "CSS",
+  "JAVASCRIPT",
+  "TAILWIND  CSS",
+  "BOOTSTRAP",
+  "JAVA",
+  "C",
+  "SQL",
+  "LINUX",
+  "GIT"
+  
 ];
 
 /**
