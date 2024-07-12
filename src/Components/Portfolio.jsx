@@ -49,7 +49,7 @@ const projectList = [
     url: "https://talatfirdous.github.io/MyResume/",
   },
   
-];
+]
 
 const Portfolio = () => {
   return (
