@@ -27,12 +27,10 @@ const siteProps = {
   name: "Kassim Amir",
   title: "Software Developer & Web Designer",
   email: "amir.kassim946@gmail.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  gitHub: "https://github.com/koja-amir",
+  instagram: "https://www.instagram.com/kojatechs",
+  linkedIn: "https://www.linkedin.com/in/kassim-juma-57320a18a",
+  twitter: "https://x.com/kassim_amir95",
 };
 
 const primaryColor = "#4E567E";
