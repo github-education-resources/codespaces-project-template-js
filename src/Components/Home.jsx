@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/woman-with-tablet.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "Results-oriented Full Stack Developer with expertise in optimizing project outcomes and enhancing user experiences. Skilled in strategic project management, team collaboration, and leveraging technical expertise across front-end and back-end technologies";
 
 const Home = ({ name, title }) => {
   return (
