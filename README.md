@@ -4,7 +4,7 @@
 
 > View these instructions in [Spanish](/translations/es/README.md) or [Portuguese](/translations/pt-BR/README.md)
 
-_Create, customize and deploy your own portfolio website in minutes._ ✨
+_Create, customize and deploy your own portfolio website in minutes!_ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch your [Codespace](https://github.com/features/codespaces/) environment and start customizing your site using [Copilot](https://copilot.github.com) to help you write code faster.
 
